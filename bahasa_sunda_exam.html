@@ -129,6 +129,19 @@
     display: grid; place-items: center; padding: 0 8px;
   }
   .qtext { font-weight: bold; padding-top: 3px; }
+  .pics { display: flex; justify-content: center; margin: 14px 0 4px; }
+  .pics img {
+    display: block; max-width: 100%; max-height: 240px;
+    border-radius: 10px; border: 1px solid var(--line);
+    cursor: zoom-in; background: #fff;
+  }
+  #lightbox {
+    position: fixed; inset: 0; z-index: 20;
+    background: rgba(20, 20, 20, .85);
+    display: none; place-items: center; padding: 16px; cursor: zoom-out;
+  }
+  #lightbox.show { display: grid; }
+  #lightbox img { max-width: 100%; max-height: 92vh; border-radius: 10px; background: #fff; }
   .hint { display: inline-block; margin-top: 6px; font-size: 15px; color: var(--brand-dark); background: var(--brand-soft); border-radius: 8px; padding: 2px 8px; font-weight: bold; }
 
   .opts { display: grid; gap: 10px; margin-top: 14px; }
@@ -336,6 +349,8 @@
   <p class="missing-note" id="missingNote"></p>
 </main>
 
+<div id="lightbox" role="dialog" aria-label="Enlarged picture"><img alt=""></div>
+
 <button type="button" id="fsBtn" aria-pressed="false" hidden>
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="fs-in" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/><path class="fs-out" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" style="display:none"/></svg>
   <span>Full screen</span>
@@ -386,6 +401,10 @@ function qHead(no, q, hint) {
     (hint ? `<br><span class="hint">${hint}</span>` : "") + `</span></legend>`;
 }
 
+function picHtml(b) {
+  return b.img ? `<div class="pics"><img src="${esc(b.img)}" alt="${esc(b.imgAlt || "Picture for this question")}"></div>` : "";
+}
+
 function renderChoice(b, key, multi) {
   const order = shuffle(range(b.options.length));
   const short = b.options.every(o => o.length <= 34 && !o.includes("\n"));
@@ -393,7 +412,8 @@ function renderChoice(b, key, multi) {
     correct: multi ? b.answer.map(letterIdx) : [letterIdx(b.answer)] };
   const html = `
     <section class="q" id="q-${key}"><fieldset>
-      ${qHead(b.no, b.q, multi ? "Tick every correct answer (bisa leuwih ti hiji)" : "")}
+      ${qHead(b.no, b.q, multi ? (DATA.meta.multiHint || "Tick every correct answer") : "")}
+      ${picHtml(b)}
       <div class="opts ${short ? "short" : ""}">
         ${order.map((orig, pos) => `
           <label class="opt ${multi ? "box" : ""}" data-orig="${orig}">
@@ -551,10 +571,11 @@ function markItem(it, a, ok) {
       if (it.correct.includes(o)) lab.classList.add(chosen || it.type === "single" ? "correct" : "missed");
       else if (chosen) lab.classList.add("wrong");
     });
-    if (ok) { v.innerHTML = head; return; }
+    const why = it.block.why ? `<span class="why">${esc(it.block.why)}</span>` : "";
+    if (ok) { v.innerHTML = head + why; return; }
     const many = it.correct.length > 1;
     v.innerHTML = head + (a !== null ? `You chose: <b>${br(choiceText(it, a))}</b><br>` : "") +
-      `The correct answer${many ? "s are" : " is"}:<span class="why"><b>${esc(choiceText(it, it.correct))}</b></span>` +
+      `The correct answer${many ? "s are" : " is"}:<span class="why"><b>${esc(choiceText(it, it.correct))}</b></span>` + why +
       (it.type === "multi" ? `<span class="why" style="font-size:14px;color:var(--muted)">Dashed green box = a correct answer you did not tick.</span>` : "");
   } else if (it.type === "truefalse") {
     it.block.statements.forEach((s, i) => {
@@ -663,7 +684,12 @@ function retry() {
 function start(data) {
   if (!data || !Array.isArray(data.sections)) throw new Error("This file does not look like an exam questions file.");
   DATA = data;
-  const m = data.meta || {};
+  const m = data.meta = data.meta || {};
+  // Optional colour theme from the JSON, e.g. "theme": { "brand": "#6a3d8f", ... }
+  const vars = { brand: "--brand", brandDark: "--brand-dark", brandSoft: "--brand-soft", bg: "--bg", line: "--line" };
+  Object.entries(m.theme || {}).forEach(([k, v]) => {
+    if (vars[k] && /^#[0-9a-f]{3,8}$/i.test(v)) document.documentElement.style.setProperty(vars[k], v);
+  });
   document.title = m.title || document.title;
   document.getElementById("heroTitle").textContent = m.title || "Practice Exam";
   document.getElementById("heroTopic").textContent = m.topic || "";
@@ -696,6 +722,16 @@ document.getElementById("dataFile").addEventListener("change", e => {
 });
 
 form.addEventListener("change", updateProgress);
+
+const lb = document.getElementById("lightbox");
+form.addEventListener("click", e => {
+  if (e.target.matches(".pics img")) {
+    lb.querySelector("img").src = e.target.src;
+    lb.classList.add("show");
+  }
+});
+lb.addEventListener("click", () => lb.classList.remove("show"));
+document.addEventListener("keydown", e => { if (e.key === "Escape") lb.classList.remove("show"); });
 document.getElementById("submitBtn").addEventListener("click", submit);
 document.getElementById("student").addEventListener("input", e => {
   document.getElementById("progName").textContent = e.target.value.trim();

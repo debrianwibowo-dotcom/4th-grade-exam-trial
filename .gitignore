@@ -3,3 +3,9 @@
 !.gitignore
 !bahasa_sunda_exam.html
 !bahasa_sunda_exam.json
+*.jpeg
+*.jpg
+!fiqih_ibadah_exam.html
+!fiqih_ibadah_exam.json
+!fiqih_ibadah_exam_img/
+!fiqih_ibadah_exam_img/*.jpg

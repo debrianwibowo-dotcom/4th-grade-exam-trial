@@ -4,6 +4,7 @@
     "topic": "Basa Sunda · Pangajaran 2 Sajak",
     "book": "Piwejang Basa Sunda",
     "pages": "54–70",
+    "multiHint": "Tick every correct answer (bisa leuwih ti hiji)",
     "notes": "Options are listed in the order printed in the book. Answer letters refer to that order (a = first option, b = second, ...), also for check-box questions that have no letters in the book. The page shuffles options on every load."
   },
   "sections": [
