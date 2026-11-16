@@ -1,0 +1,5 @@
+# Publish only the Basa Sunda exam. Everything else (photos, other exams) stays local.
+*
+!.gitignore
+!bahasa_sunda_exam.html
+!bahasa_sunda_exam.json
