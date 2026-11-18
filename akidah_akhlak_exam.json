@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "title": "Akidah Akhlak: Malaikat-Malaikat Allah — Practice Exam",
+    "topic": "Akidah Akhlak · Beriman kepada Malaikat",
+    "notes": "Questions written from the textbook chapter on malaikat (sections A–F and the Al Khulaashah summary). In this file the correct answer is always listed first (answer \"a\"); the page shuffles the options on every load.",
+    "theme": { "brand": "#2f7a4f", "brandDark": "#1f5a37", "brandSoft": "#e8f4ec", "bg": "#f3f8f4", "line": "#d5e7da" }
+  },
+  "sections": [
+    {
+      "id": "pengertian",
+      "title": "Pengertian & Beriman kepada Malaikat",
+      "subtitle": "bagian A dan B",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Pilihlah satu jawaban yang paling benar!"],
+          "blocks": [
+            { "type": "single", "no": 1,
+              "q": "Kata \"malaikat\" berasal dari bahasa Arab yang berarti ....",
+              "options": ["kekuatan", "cahaya", "kebaikan", "keindahan"],
+              "answer": "a",
+              "why": "Kata \"malaikat\" berasal dari bahasa Arab yang berarti \"kekuatan\" (bagian A)." },
+            { "type": "single", "no": 2,
+              "q": "Menurut istilah, malaikat adalah makhluk gaib yang diciptakan oleh Allah dari ....",
+              "options": ["cahaya", "nyala api", "tanah", "air"],
+              "answer": "a",
+              "why": "Menurut istilah, malaikat berarti makhluk gaib yang diciptakan oleh Allah dari cahaya (bagian A)." },
+            { "type": "single", "no": 3,
+              "q": "Beriman kepada malaikat adalah rukun iman yang ....",
+              "options": ["kedua", "pertama", "ketiga", "keempat"],
+              "answer": "a",
+              "why": "Beriman kepada malaikat adalah rukun iman yang kedua, yaitu setelah percaya kepada Allah SWT (bagian B)." },
+            { "type": "single", "no": 4,
+              "q": "Kita wajib mempercayai malaikat walaupun tidak tampak oleh mata. Salah satu alasannya adalah agar kita ....",
+              "options": [
+                "berhati-hati dan mengontrol diri karena semua perbuatan kita disaksikan dan dicatat",
+                "bisa melihat malaikat setiap hari",
+                "tidak perlu lagi belajar dan beribadah",
+                "merasa takut berada di dalam rumah sendiri"
+              ],
+              "answer": "a",
+              "why": "Kita mempercayai malaikat agar memiliki rasa percaya diri, merasa ada yang melindungi, dan berhati-hati serta mengontrol diri karena semua perbuatan kita disaksikan dan dicatat (bagian B)." },
+            { "type": "single", "no": 5,
+              "q": "Nabi Muhammad saw. dan para sahabat pernah kedatangan malaikat Jibril untuk mengajarkan tentang Islam, iman, dan ikhsan. Saat itu malaikat Jibril berwujud ....",
+              "options": ["seorang laki-laki yang tampan", "seekor burung yang putih", "anak kecil yang lucu", "awan yang sangat tebal"],
+              "answer": "a",
+              "why": "Nabi dan para sahabatnya bertemu dengan malaikat Jibril yang berwujud seorang laki-laki yang tampan (bagian B)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asal",
+      "title": "Asal Kejadian & Sifat Malaikat",
+      "subtitle": "bagian C",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Pilihlah satu jawaban yang paling benar!"],
+          "blocks": [
+            { "type": "single", "no": 6,
+              "q": "Rasulullah saw. bersabda, \"Malaikat diciptakan dari cahaya, jin diciptakan dari ..., dan Adam diciptakan dari ....\" (H.R. Muslim)",
+              "options": ["nyala api — tanah", "tanah — nyala api", "cahaya — air", "air — nyala api"],
+              "answer": "a",
+              "why": "Hadis riwayat Aisyah r.a.: malaikat diciptakan dari cahaya, jin dari nyala api, dan Adam dari tanah (bagian C)." },
+            { "type": "single", "no": 7,
+              "q": "Malaikat diciptakan dari nur atau cahaya karena sesuai dengan tugasnya, yaitu ....",
+              "options": [
+                "memberi penerangan dan hidayah kepada manusia yang berada dalam kegelapan atau kesesatan",
+                "menerangi rumah-rumah manusia pada malam hari",
+                "menggantikan matahari ketika malam tiba",
+                "membuat manusia takut kepada kegelapan"
+              ],
+              "answer": "a",
+              "why": "Malaikat diciptakan dari cahaya sesuai dengan tugasnya memberi penerangan dan hidayah kepada manusia yang berada dalam kegelapan atau kesesatan (bagian C)." },
+            { "type": "single", "no": 8,
+              "q": "\"Dan ketika Kami berfirman kepada para malaikat, sujudlah kamu kepada Adam, maka sujudlah mereka kecuali ....\" (Q.S. Al-Baqarah ayat 34)",
+              "options": ["iblis", "Jibril", "Mikail", "Israfil"],
+              "answer": "a",
+              "why": "Semua malaikat patuh dan sujud kepada Adam, kecuali iblis (Q.S. Al-Baqarah: 34, bagian C)." },
+            { "type": "single", "no": 9,
+              "q": "Malaikat tidak mau mengerjakan perbuatan atau amalan yang tidak diperintahkan Allah SWT. Hal ini menunjukkan sifat malaikat yang ....",
+              "options": ["disiplin dan jujur", "rendah hati", "selalu bertasbih", "kuat dan perkasa"],
+              "answer": "a",
+              "why": "Sifat disiplin dan jujur: malaikat tidak mau mengerjakan amalan yang tidak diperintahkan Allah (Q.S. Al-Anbiyaa': 27, bagian C)." },
+            { "type": "single", "no": 10,
+              "q": "Malaikat tidak pernah berlaku sombong dan angkuh untuk menyembah Allah. Sifat ini disebut ....",
+              "options": ["rendah hati", "disiplin dan jujur", "patuh dan tunduk", "selalu bertasbih"],
+              "answer": "a",
+              "why": "Sifat rendah hati: malaikat tidak pernah sombong dan angkuh untuk menyembah Allah (Q.S. Al-Anbiyaa': 19, bagian C)." },
+            { "type": "single", "no": 11,
+              "q": "Menurut Q.S. Al-Anbiyaa' ayat 20, para malaikat selalu bertasbih ....",
+              "options": ["malam dan siang dengan tiada henti-hentinya", "hanya pada malam hari", "hanya setelah salat", "hanya pada hari Jumat"],
+              "answer": "a",
+              "why": "\"Mereka selalu bertasbih malam dan siang dengan tiada henti-hentinya\" (Q.S. Al-Anbiyaa': 20, bagian C)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tugas",
+      "title": "Tugas Malaikat",
+      "subtitle": "bagian D",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Pilihlah satu jawaban yang paling benar!"],
+          "blocks": [
+            { "type": "single", "no": 12,
+              "q": "Jumlah malaikat sangatlah banyak. Adapun malaikat yang wajib kita ketahui ada ....",
+              "options": ["sepuluh", "lima", "tujuh", "dua puluh lima"],
+              "answer": "a",
+              "why": "Jumlah malaikat sangatlah banyak. Adapun yang wajib kita ketahui ada sepuluh (bagian D)." },
+            { "type": "single", "no": 13,
+              "q": "Malaikat yang bertugas menyampaikan wahyu kepada para nabi dan rasul adalah malaikat ....",
+              "options": ["Jibril", "Mikail", "Israfil", "Ridwan"],
+              "answer": "a",
+              "why": "Malaikat Jibril bertugas menyampaikan wahyu kepada para nabi dan rasul (tabel tugas malaikat, bagian D)." },
+            { "type": "single", "no": 14,
+              "q": "Malaikat Mikail bertugas ....",
+              "options": ["menurunkan hujan dan membagi rezeki", "mencabut nyawa", "meniup sangkakala pada hari kiamat", "menjaga pintu surga"],
+              "answer": "a",
+              "why": "Malaikat Mikail bertugas menurunkan hujan dan membagi rezeki (bagian D)." },
+            { "type": "single", "no": 15,
+              "q": "Malaikat yang bertugas meniup sangkakala (terompet) pada hari kiamat adalah malaikat ....",
+              "options": ["Israfil", "Izrail", "Jibril", "Malik"],
+              "answer": "a",
+              "why": "Malaikat Israfil bertugas meniup sangkakala (terompet) pada hari kiamat (bagian D)." },
+            { "type": "single", "no": 16,
+              "q": "Malaikat Izrail bertugas ....",
+              "options": ["mencabut nyawa", "mencatat amal buruk manusia", "menjaga neraka", "menyampaikan wahyu"],
+              "answer": "a",
+              "why": "Malaikat Izrail bertugas mencabut nyawa (bagian D)." },
+            { "type": "single", "no": 17,
+              "q": "Malaikat yang bertugas menanyai amal buruk manusia di alam kubur adalah malaikat ....",
+              "options": ["Nakir", "Munkar", "Rakib", "Atid"],
+              "answer": "a",
+              "why": "Malaikat Nakir menanyai amal buruk manusia di alam kubur, sedangkan malaikat Munkar menanyai amal baik (bagian D)." },
+            { "type": "single", "no": 18,
+              "q": "Malaikat yang bertugas mencatat amal kebaikan manusia adalah malaikat ....",
+              "options": ["Rakib", "Atid", "Munkar", "Mikail"],
+              "answer": "a",
+              "why": "Malaikat Rakib mencatat amal kebaikan manusia, sedangkan malaikat Atid mencatat amal buruk manusia (bagian D)." },
+            { "type": "single", "no": 19,
+              "q": "Malaikat Malik bertugas menjaga neraka, sedangkan malaikat yang bertugas menjaga surga adalah malaikat ....",
+              "options": ["Ridwan", "Izrail", "Israfil", "Nakir"],
+              "answer": "a",
+              "why": "Malaikat Ridwan bertugas menjaga surga, sedangkan malaikat Malik menjaga neraka (bagian D)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perbedaan",
+      "title": "Perbedaan Malaikat dengan Manusia",
+      "subtitle": "bagian E",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Pilihlah satu jawaban yang paling benar!"],
+          "blocks": [
+            { "type": "single", "no": 20,
+              "q": "Malaikat termasuk makhluk gaib, sedangkan manusia termasuk makhluk ....",
+              "options": ["nyata", "gaib", "halus", "cahaya"],
+              "answer": "a",
+              "why": "Dalam tabel perbedaan, jenis makhluk: malaikat adalah makhluk gaib, manusia adalah makhluk nyata (bagian E)." },
+            { "type": "single", "no": 21,
+              "q": "Perbedaan malaikat dan manusia dalam hal kecenderungan biologis adalah ....",
+              "options": [
+                "malaikat tidak memiliki keinginan dan hawa nafsu, manusia memiliki banyak keinginan dan hawa nafsu",
+                "malaikat memiliki banyak keinginan dan hawa nafsu, manusia tidak memiliki hawa nafsu",
+                "malaikat dan manusia sama-sama memiliki hawa nafsu",
+                "malaikat dan manusia sama-sama tidak memiliki keinginan"
+              ],
+              "answer": "a",
+              "why": "Kecenderungan biologis: malaikat tidak memiliki keinginan dan hawa nafsu, sedangkan manusia memiliki banyak keinginan dan hawa nafsu (bagian E)." },
+            { "type": "single", "no": 22,
+              "q": "Pernyataan yang benar tentang malaikat adalah ....",
+              "options": [
+                "malaikat tidak berjenis kelamin dan sangat taat kepada Allah",
+                "malaikat berjenis kelamin laki-laki atau perempuan",
+                "ada malaikat yang taat dan ada yang tidak taat",
+                "ada malaikat yang rajin dan ada yang malas beribadah"
+              ],
+              "answer": "a",
+              "why": "Malaikat tidak berjenis kelamin dan sangat taat. Manusia berjenis kelamin laki-laki atau perempuan, ada yang taat dan tidak taat, ada yang rajin dan ada yang malas (bagian E)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hikmah",
+      "title": "Hikmah Beriman kepada Malaikat",
+      "subtitle": "bagian F",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Pilihlah satu jawaban yang paling benar!"],
+          "blocks": [
+            { "type": "single", "no": 23,
+              "q": "Kita menjadi terdorong untuk berbuat baik karena ....",
+              "options": [
+                "setiap perbuatan baik sekecil apa pun akan dicatat oleh malaikat dan dilaporkan kepada Allah",
+                "perbuatan baik yang kecil tidak akan dicatat oleh malaikat",
+                "malaikat akan memberi kita hadiah di dunia",
+                "teman-teman akan memuji kita"
+              ],
+              "answer": "a",
+              "why": "Hikmah pertama: kita terdorong berbuat baik karena setiap perbuatan baik sekecil apa pun akan dicatat oleh malaikat dan dilaporkan kepada Allah (bagian F)." },
+            { "type": "single", "no": 24,
+              "q": "Dina tidak mau menyontek walaupun guru sedang keluar kelas, karena ia yakin malaikat selalu mencatat perbuatannya. Sikap Dina menunjukkan hikmah beriman kepada malaikat, yaitu ....",
+              "options": [
+                "merasa terawasi di mana saja sehingga terdorong meninggalkan perbuatan buruk",
+                "merasa takut kepada guru",
+                "ingin mendapat nilai yang paling tinggi",
+                "malu kepada teman sekelasnya"
+              ],
+              "answer": "a",
+              "why": "Hikmah kedua: kita merasa terawasi di mana saja kita berada sehingga terdorong meninggalkan perbuatan buruk (bagian F)." },
+            { "type": "single", "no": 25,
+              "q": "Berikut ini adalah hikmah beriman kepada malaikat, kecuali ....",
+              "options": [
+                "merasa bebas berbuat apa saja karena tidak ada yang melihat",
+                "terdorong untuk berbuat baik",
+                "merasa terawasi di mana saja kita berada",
+                "terdorong meneladani sifat malaikat yang taat, patuh, dan tidak pernah letih"
+              ],
+              "answer": "a",
+              "why": "Orang yang beriman kepada malaikat tahu bahwa semua perbuatannya selalu dicatat, jadi ia tidak merasa bebas berbuat buruk (bagian F)." }
+          ]
+        }
+      ]
+    }
+  ]
+}
