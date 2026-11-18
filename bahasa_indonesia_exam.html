@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bahasa Indonesia Practice Exam</title>
+<style>
+  :root {
+    --brand: #2e7d4f;
+    --brand-dark: #225e3b;
+    --brand-soft: #e6f3ea;
+    --ink: #232a25;
+    --muted: #5f6b63;
+    --bg: #f2f7f3;
+    --card: #ffffff;
+    --line: #d9e5dc;
+    --ok: #1f8a4c;
+    --ok-soft: #e5f5eb;
+    --bad: #c62f2f;
+    --bad-soft: #fdeaea;
+    --sel: #2f6fd1;
+    --sel-soft: #eaf1fd;
+    --note: #fff6dc;
+    --note-line: #ecd58e;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Trebuchet MS", "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 18px;
+    line-height: 1.45;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 0 16px 90px; }
+
+  header.hero { background: var(--brand); color: #fff; padding: 28px 16px 24px; }
+  header.hero .wrap { padding-bottom: 0; }
+  .hero .topic { font-size: 15px; letter-spacing: .04em; text-transform: uppercase; opacity: .85; margin: 0 0 4px; }
+  .hero h1 { margin: 0 0 6px; font-size: clamp(26px, 5vw, 36px); line-height: 1.15; }
+  .hero p { margin: 0; opacity: .92; }
+
+  .intro, .panel {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    margin: 20px 0;
+  }
+  .intro ul { margin: 8px 0 14px; padding-left: 22px; }
+  .intro label { font-weight: bold; display: block; margin-bottom: 6px; }
+  .intro input {
+    width: 100%; max-width: 360px;
+    font: inherit; padding: 10px 12px;
+    border: 2px solid var(--line); border-radius: 10px;
+  }
+  .intro input:focus { outline: none; border-color: var(--sel); }
+  .jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .jump a {
+    font-size: 15px; font-weight: bold; text-decoration: none;
+    color: var(--brand); background: var(--brand-soft);
+    border-radius: 99px; padding: 6px 12px;
+  }
+  .panel.error { border: 2px solid var(--bad); }
+  .panel.error code { background: var(--bg); padding: 1px 6px; border-radius: 6px; font-size: 15px; }
+  .panel input[type=file] { font: inherit; margin-top: 8px; max-width: 100%; }
+
+  .progress {
+    position: sticky; top: 0; z-index: 5;
+    background: var(--bg);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 16px;
+  }
+  .progress .row { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; color: var(--muted); margin-bottom: 6px; }
+  .bar { height: 10px; background: var(--line); border-radius: 99px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--brand); transition: width .25s; }
+
+  /* Sections & parts */
+  .sec-head {
+    background: var(--brand-dark); color: #fff;
+    border-radius: var(--radius);
+    padding: 14px 20px; margin: 30px 0 14px;
+    scroll-margin-top: 70px;
+  }
+  .sec-head h2 { margin: 0; font-size: 24px; line-height: 1.2; }
+  .sec-head p { margin: 2px 0 0; font-size: 15px; opacity: .85; }
+  .part-head { margin: 22px 0 12px; }
+  .part-head h3 { margin: 0 0 2px; color: var(--brand-dark); font-size: 21px; }
+  .part-head p { margin: 0; font-weight: bold; }
+  .part-head p.alt { color: var(--sel); font-style: italic; }
+
+  .note {
+    background: var(--note); border: 1px solid var(--note-line);
+    border-radius: 12px; padding: 12px 16px; margin: 0 0 18px; font-weight: bold;
+  }
+  .passage {
+    background: var(--brand-soft);
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--brand);
+    border-radius: 12px;
+    padding: 14px 18px; margin: 0 0 18px;
+  }
+  .passage .ph { font-weight: bold; margin: 0 0 6px; }
+  .passage .ptitle { text-align: center; font-weight: bold; margin: 4px 0 0; letter-spacing: .02em; }
+  .passage .pauthor { text-align: center; margin: 0 0 8px; }
+  .passage .poem { font-style: italic; white-space: pre-wrap; margin: 0; }
+  .passage .prose p { font-style: italic; text-indent: 2em; margin: 0 0 8px; }
+  .passage .prose p:last-child { margin-bottom: 0; }
+  .passage .ptitle + .plain { margin-top: 8px; }
+  .passage .plain { white-space: pre-wrap; margin: 0; }
+  .passage .pics img { max-height: 340px; }
+  .opt .oimg { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+  .opt .oimg img { display: block; width: 150px; max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); }
+
+  .q {
+    background: var(--card);
+    border: 2px solid var(--line);
+    border-radius: var(--radius);
+    padding: 18px 20px 20px;
+    margin: 0 0 18px;
+    scroll-margin-top: 70px;
+  }
+  fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+  .qhead { display: flex; gap: 12px; align-items: flex-start; padding: 0; }
+  .num {
+    flex: none;
+    background: var(--brand); color: #fff;
+    font-weight: bold; font-size: 16px;
+    min-width: 34px; height: 34px; border-radius: 99px;
+    display: grid; place-items: center; padding: 0 8px;
+  }
+  .qtext { font-weight: bold; padding-top: 3px; }
+  .pics { display: flex; justify-content: center; margin: 14px 0 4px; }
+  .pics img {
+    display: block; max-width: 100%; max-height: 240px;
+    border-radius: 10px; border: 1px solid var(--line);
+    cursor: zoom-in; background: #fff;
+  }
+  #lightbox {
+    position: fixed; inset: 0; z-index: 20;
+    background: rgba(20, 20, 20, .85);
+    display: none; place-items: center; padding: 16px; cursor: zoom-out;
+  }
+  #lightbox.show { display: grid; }
+  #lightbox img { max-width: 100%; max-height: 92vh; border-radius: 10px; background: #fff; }
+  .hint { display: inline-block; margin-top: 6px; font-size: 15px; color: var(--brand-dark); background: var(--brand-soft); border-radius: 8px; padding: 2px 8px; font-weight: bold; }
+
+  .opts { display: grid; gap: 10px; margin-top: 14px; }
+  @media (min-width: 640px) { .opts.short { grid-template-columns: 1fr 1fr; } }
+  .opt {
+    display: flex; align-items: center; gap: 12px;
+    border: 2px solid var(--line); border-radius: 12px;
+    padding: 10px 14px;
+    cursor: pointer; background: #fff;
+    transition: border-color .15s, background .15s;
+  }
+  .opt:hover { border-color: #b9cbbd; }
+  .opt input { position: absolute; opacity: 0; pointer-events: none; }
+  .opt .letter {
+    flex: none; width: 30px; height: 30px; border-radius: 99px;
+    display: grid; place-items: center;
+    border: 2px solid #b9cbbd; font-weight: bold; font-size: 15px; color: var(--muted);
+  }
+  .opt.box .letter { border-radius: 7px; }
+  .opt .otext { white-space: pre-line; }
+  .opt:has(input:checked) { border-color: var(--sel); background: var(--sel-soft); }
+  .opt:has(input:checked) .letter { background: var(--sel); border-color: var(--sel); color: #fff; }
+  .opt:has(input:focus-visible) { outline: 3px solid var(--sel); outline-offset: 2px; }
+
+  /* True / false table */
+  .tf { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 17px; }
+  .tf th, .tf td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: middle; }
+  .tf th { background: var(--brand-soft); }
+  .tf td.c { text-align: center; width: 76px; }
+  .tf td.lab { width: 34px; font-weight: bold; text-align: center; }
+  .tf label.pick { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; border: 2px solid #b9cbbd; cursor: pointer; font-weight: bold; color: transparent; background: #fff; }
+  .tf label.pick input { position: absolute; opacity: 0; pointer-events: none; }
+  .tf label.pick:has(input:checked) { background: var(--sel); border-color: var(--sel); color: #fff; }
+  .tf label.pick:has(input:focus-visible) { outline: 3px solid var(--sel); outline-offset: 2px; }
+
+  /* Matching */
+  .bank { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+  .bank span { background: var(--brand-soft); border: 1px solid var(--line); border-radius: 99px; padding: 4px 12px; font-size: 16px; font-weight: bold; }
+  .mrow { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; padding: 14px 0; border-top: 1px solid var(--line); scroll-margin-top: 70px; }
+  .mrow:first-of-type { border-top: 0; }
+  .mrow .mtext { padding-top: 3px; }
+  .mrow select {
+    grid-column: 2; font: inherit; font-size: 17px; padding: 8px 10px;
+    border: 2px solid var(--line); border-radius: 10px; background: #fff; max-width: 320px; width: 100%;
+  }
+  .mrow select:focus { outline: none; border-color: var(--sel); }
+  .mrow select.filled { border-color: var(--sel); background: var(--sel-soft); }
+  .mrow .verdict { grid-column: 2; }
+
+  /* Essay */
+  .q textarea {
+    width: 100%; min-height: 96px; margin-top: 12px;
+    font: inherit; font-size: 17px; padding: 10px 12px;
+    border: 2px solid var(--line); border-radius: 10px; resize: vertical;
+  }
+  .q textarea:focus { outline: none; border-color: var(--sel); }
+  .q.essay .tag-free { display: inline-block; font-size: 14px; color: var(--muted); margin-top: 6px; }
+
+  /* After marking */
+  .marked .opt, .marked .tf label.pick { cursor: default; }
+  .marked .opt:hover { border-color: var(--line); }
+  .marked .opt.correct { border-color: var(--ok); background: var(--ok-soft); }
+  .marked .opt.correct .letter { background: var(--ok); border-color: var(--ok); color: #fff; }
+  .marked .opt.missed { border-color: var(--ok); border-style: dashed; background: #fff; }
+  .marked .opt.missed .letter { border-color: var(--ok); color: var(--ok); }
+  .marked .opt.wrong { border-color: var(--bad); background: var(--bad-soft); }
+  .marked .opt.wrong .letter { background: var(--bad); border-color: var(--bad); color: #fff; }
+  .marked .tf td.good { background: var(--ok-soft); }
+  .marked .tf td.good label.pick { border-color: var(--ok); }
+  .marked .tf td.good label.pick:has(input:checked) { background: var(--ok); }
+  .marked .tf td.badc label.pick:has(input:checked) { background: var(--bad); border-color: var(--bad); }
+  .marked select.ok { border-color: var(--ok); background: var(--ok-soft); }
+  .marked select.no { border-color: var(--bad); background: var(--bad-soft); }
+  .q.is-right { border-color: var(--ok); }
+  .q.is-wrong { border-color: var(--bad); }
+  .verdict { display: none; margin-top: 14px; padding: 12px 14px; border-radius: 10px; font-size: 16px; }
+  .marked .verdict { display: block; }
+  .is-right > .verdict, .is-right .verdict { background: var(--ok-soft); }
+  .is-wrong > .verdict, .is-wrong .verdict { background: var(--bad-soft); }
+  .q.essay .verdict { background: var(--brand-soft); }
+  .verdict b.tag { display: inline-block; margin-right: 6px; }
+  .is-right .verdict b.tag { color: var(--ok); }
+  .is-wrong .verdict b.tag { color: var(--bad); }
+  .verdict .why { display: block; margin-top: 4px; color: var(--ink); white-space: pre-line; }
+
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 28px 0 0; }
+  button {
+    font: inherit; font-weight: bold;
+    border: 0; border-radius: 12px;
+    padding: 14px 26px;
+    cursor: pointer;
+  }
+  .primary { background: var(--brand); color: #fff; font-size: 20px; }
+  .primary:hover { background: var(--brand-dark); }
+  .secondary { background: #fff; color: var(--brand); border: 2px solid var(--brand); }
+  .secondary:hover { background: var(--brand-soft); }
+  .missing-note { text-align: center; color: var(--bad); font-size: 16px; margin-top: 10px; min-height: 1.4em; }
+
+  /* Results */
+  #results {
+    display: none;
+    background: var(--card);
+    border: 2px solid var(--brand);
+    border-radius: var(--radius);
+    padding: 22px 20px;
+    margin: 20px 0;
+    text-align: center;
+    scroll-margin-top: 16px;
+  }
+  #results.show { display: block; }
+  .score-big { font-size: clamp(56px, 14vw, 84px); font-weight: bold; line-height: 1; color: var(--brand); }
+  .score-big small { font-size: .35em; color: var(--muted); }
+  .score-line { margin: 8px 0 2px; font-size: 18px; }
+  .cheer { font-size: 20px; font-weight: bold; margin: 8px 0 16px; }
+  .counts { display: flex; justify-content: center; gap: 22px; flex-wrap: wrap; font-size: 16px; margin-bottom: 14px; }
+  .counts span b { font-size: 20px; }
+  .c-ok { color: var(--ok); } .c-bad { color: var(--bad); }
+  .gsec { margin: 16px auto 0; max-width: 520px; text-align: left; }
+  .gsec h4 { margin: 0 0 6px; font-size: 16px; display: flex; justify-content: space-between; gap: 10px; }
+  .gsec h4 span { color: var(--muted); font-weight: normal; }
+  .grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; }
+  .grid a {
+    display: grid; place-items: center;
+    aspect-ratio: 1; border-radius: 8px;
+    font-size: 14px; font-weight: bold; text-decoration: none; color: #fff;
+  }
+  .grid a.ok { background: var(--ok); }
+  .grid a.bad { background: var(--bad); }
+  .grid-help { font-size: 14px; color: var(--muted); margin: 12px 0 0; }
+  .filter { margin-top: 16px; font-size: 16px; }
+  .filter label { cursor: pointer; }
+  body.only-wrong .q.is-right, body.only-wrong .mrow.is-right { display: none; }
+
+  /* Full screen button */
+  #fsBtn {
+    position: fixed; right: 16px; bottom: 16px; z-index: 10;
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--brand); color: #fff;
+    font-size: 16px; padding: 10px 16px; border-radius: 99px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .22);
+  }
+  #fsBtn:hover { background: var(--brand-dark); }
+  #fsBtn:focus-visible { outline: 3px solid var(--sel); outline-offset: 2px; }
+  #fsBtn svg { width: 20px; height: 20px; flex: none; }
+  #fsBtn[hidden] { display: none; }
+
+  @media (max-width: 520px) {
+    body { font-size: 17px; }
+    .q { padding: 14px 14px 16px; }
+    .grid { grid-template-columns: repeat(5, 1fr); }
+    .tf td.c { width: 56px; }
+  }
+  @media print {
+    .progress, .actions, .filter, .missing-note, #fsBtn, .jump { display: none !important; }
+    body { background: #fff; }
+    .q, .passage { break-inside: avoid; }
+    body.only-wrong .q.is-right, body.only-wrong .mrow.is-right { display: block; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="topic" id="heroTopic">Bahasa Indonesia</p>
+    <h1 id="heroTitle">Bahasa Indonesia Practice Exam</h1>
+    <p id="heroSub">Loading questions…</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel error" id="loadError" hidden>
+    <strong>The questions file could not be loaded automatically.</strong>
+    <p>Browsers block this when the page is opened straight from a folder. Choose the questions file
+      (<code id="dataName">bahasa_indonesia_exam.json</code>) to start:</p>
+    <input type="file" id="dataFile" accept=".json,application/json">
+    <p class="missing-note" id="fileErr"></p>
+  </section>
+
+  <section class="intro" id="intro" hidden>
+    <strong>How to do this exam</strong>
+    <ul>
+      <li>Read the text in the coloured box first, then answer the questions below it.</li>
+      <li>Round letters: choose <b>one</b> answer. Square boxes: tick <b>every</b> correct answer.</li>
+      <li>Tables: tick one column for every statement.</li>
+      <li>Tap the poster to make it bigger.</li>
+      <li>When you have finished, press <b>Submit my answers</b> at the bottom.</li>
+    </ul>
+    <label for="student">Your name</label>
+    <input id="student" type="text" autocomplete="off" placeholder="Type your name here">
+    <div class="jump" id="jump"></div>
+  </section>
+
+  <section id="results" aria-live="polite"></section>
+
+  <div class="progress" id="progress" hidden>
+    <div class="row"><span id="progText">Answered 0</span><span id="progName"></span></div>
+    <div class="bar"><span id="progBar"></span></div>
+  </div>
+
+  <form id="exam" autocomplete="off" onsubmit="return false"></form>
+
+  <div class="actions" id="actions" hidden>
+    <button type="button" class="primary" id="submitBtn">Submit my answers</button>
+  </div>
+  <p class="missing-note" id="missingNote"></p>
+</main>
+
+<div id="lightbox" role="dialog" aria-label="Enlarged picture"><img alt=""></div>
+
+<button type="button" id="fsBtn" aria-pressed="false" hidden>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="fs-in" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/><path class="fs-out" d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" style="display:none"/></svg>
+  <span>Full screen</span>
+</button>
+
+<script>
+// Questions live in a separate JSON file. Use ?data=other.json to load a different one.
+const DATA_URL = new URLSearchParams(location.search).get("data") || "bahasa_indonesia_exam.json";
+const LETTERS = ["A", "B", "C", "D", "E", "F", "G", "H"];
+const form = document.getElementById("exam");
+const resultsEl = document.getElementById("results");
+const missingNote = document.getElementById("missingNote");
+let DATA = null;
+let ITEMS = [];      // every scored question: { key, label, group, type, block, ... }
+let GROUPS = [];     // result groups (one per section part that has scored items)
+let submitted = false;
+
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+const br = s => esc(s).replace(/\n/g, "<br>");
+const letterIdx = l => "abcdefgh".indexOf(String(l).toLowerCase());
+const range = n => Array.from({ length: n }, (_, i) => i);
+
+/* ---------- Rendering ---------- */
+function renderPassage(b) {
+  let h = `<div class="passage">`;
+  if (b.heading) h += `<p class="ph">${esc(b.heading)}</p>`;
+  if (b.title) h += `<p class="ptitle">${esc(b.title)}</p>`;
+  if (b.author) h += `<p class="pauthor">${esc(b.author)}</p>`;
+  if (b.style === "plain") {
+    h += `<p class="plain">${esc(b.text)}</p>`;
+  } else if (b.style === "prose") {
+    h += `<div class="prose">` + b.text.split(/\n\s*\n/).map(p => `<p>${esc(p)}</p>`).join("") + `</div>`;
+  } else {
+    h += `<p class="poem">${esc(b.text)}</p>`;
+  }
+  return h + picHtml(b) + `</div>`;
+}
+
+function qHead(no, q, hint) {
+  return `<legend class="qhead"><span class="num">${esc(no)}</span><span class="qtext">${br(q)}` +
+    (hint ? `<br><span class="hint">${hint}</span>` : "") + `</span></legend>`;
+}
+
+function picHtml(b) {
+  return b.img ? `<div class="pics"><img src="${esc(b.img)}" alt="${esc(b.imgAlt || "Picture for this question")}"></div>` : "";
+}
+
+function renderChoice(b, key, multi) {
+  const order = shuffle(range(b.options.length));
+  const short = b.options.every(o => o.length <= 34 && !o.includes("\n"));
+  const oimgs = b.optionImgs || [];
+  const otext = orig => oimgs[orig]
+    ? `<span class="otext oimg"><img src="${esc(oimgs[orig])}" alt="${esc(b.options[orig])}">${esc(b.options[orig])}</span>`
+    : `<span class="otext">${esc(b.options[orig])}</span>`;
+  const item = { key, type: b.type, block: b, order,
+    correct: multi ? b.answer.map(letterIdx) : [letterIdx(b.answer)] };
+  const html = `
+    <section class="q" id="q-${key}"><fieldset>
+      ${qHead(b.no, b.q, multi ? (DATA.meta.multiHint || "Tick every correct answer") : "")}
+      ${picHtml(b)}
+      <div class="opts ${short ? "short" : ""}">
+        ${order.map((orig, pos) => `
+          <label class="opt ${multi ? "box" : ""}" data-orig="${orig}">
+            <input type="${multi ? "checkbox" : "radio"}" name="${key}" value="${orig}">
+            <span class="letter">${LETTERS[pos]}</span>
+            ${otext(orig)}
+          </label>`).join("")}
+      </div>
+      <div class="verdict"></div>
+    </fieldset></section>`;
+  return { html, items: [item] };
+}
+
+function renderTrueFalse(b, key) {
+  const [h0, h1, h2] = b.headers || ["Pernyataan", "Bener", "Salah"];
+  const item = { key, type: "truefalse", block: b };
+  const html = `
+    <section class="q" id="q-${key}"><fieldset>
+      ${qHead(b.no, b.q)}
+      <table class="tf">
+        <thead><tr><th colspan="2">${esc(h0)}</th><th>${esc(h1)}</th><th>${esc(h2)}</th></tr></thead>
+        <tbody>${b.statements.map((s, i) => `
+          <tr data-i="${i}">
+            <td class="lab">${esc(s.label)}.</td><td>${esc(s.text)}</td>
+            <td class="c" data-v="true"><label class="pick" aria-label="${esc(h1)}"><input type="radio" name="${key}-${i}" value="true">✓</label></td>
+            <td class="c" data-v="false"><label class="pick" aria-label="${esc(h2)}"><input type="radio" name="${key}-${i}" value="false">✓</label></td>
+          </tr>`).join("")}
+        </tbody>
+      </table>
+      <div class="verdict"></div>
+    </fieldset></section>`;
+  return { html, items: [item] };
+}
+
+function renderMatching(b, keyBase) {
+  const choices = shuffle(b.choices.slice());
+  const items = [];
+  const rows = b.items.map(it => {
+    const key = `${keyBase}-${it.no}`;
+    items.push({ key, type: "matching", block: b, row: it });
+    return `
+      <div class="mrow" id="q-${key}">
+        <span class="num">${esc(it.no)}</span>
+        <span class="mtext">${esc(it.text)}</span>
+        <select name="${key}" aria-label="Answer for number ${esc(it.no)}">
+          <option value="">— choose —</option>
+          ${choices.map(c => `<option value="${esc(c.key)}">${esc(c.text)}</option>`).join("")}
+        </select>
+        <div class="verdict"></div>
+      </div>`;
+  }).join("");
+  const html = `
+    <section class="q matching" id="q-${keyBase}">
+      <strong>${esc((b.headers || [])[2] || "Jawabanana")}:</strong>
+      <div class="bank">${choices.map(c => `<span>${esc(c.text)}</span>`).join("")}</div>
+      ${rows}
+    </section>`;
+  return { html, items };
+}
+
+function renderEssay(b, key) {
+  return { html: `
+    <section class="q essay" id="q-${key}"><fieldset>
+      ${qHead(b.no, b.q)}
+      <span class="tag-free">Not scored. Write your answer, then compare after submitting.</span>
+      <textarea name="${key}" aria-label="Your answer for essay ${esc(b.no)}"></textarea>
+      <div class="verdict"><b>Example answer:</b><span class="why">${esc(b.sample || "")}</span></div>
+    </fieldset></section>`, items: [] };
+}
+
+function build() {
+  ITEMS = []; GROUPS = [];
+  const out = [];
+  DATA.sections.forEach(sec => {
+    out.push(`<div class="sec-head" id="sec-${esc(sec.id)}"><h2>${esc(sec.title)}</h2>` +
+      `<p>${[sec.subtitle && esc(sec.subtitle), sec.pages && "pages " + esc(sec.pages)].filter(Boolean).join(" · ")}</p></div>`);
+    sec.parts.forEach((part, pi) => {
+      const group = { label: sec.title + (part.title ? " · " + part.title : ""), items: [] };
+      if (part.title || (part.instructions || []).length) {
+        out.push(`<div class="part-head">` + (part.title ? `<h3>${esc(part.title)}</h3>` : "") +
+          (part.instructions || []).map((t, i) => `<p class="${i ? "alt" : ""}">${esc(t)}</p>`).join("") + `</div>`);
+      }
+      part.blocks.forEach((b, bi) => {
+        const key = `${sec.id}-${pi}-${b.no ?? "b" + bi}`;
+        let r = null;
+        if (b.type === "passage") out.push(renderPassage(b));
+        else if (b.type === "note") out.push(`<div class="note">${br(b.text)}</div>`);
+        else if (b.type === "single") r = renderChoice(b, key, false);
+        else if (b.type === "multi") r = renderChoice(b, key, true);
+        else if (b.type === "truefalse") r = renderTrueFalse(b, key);
+        else if (b.type === "matching") r = renderMatching(b, `${sec.id}-${pi}-m${bi}`);
+        else if (b.type === "essay") r = renderEssay(b, key);
+        if (r) {
+          out.push(r.html);
+          r.items.forEach(it => { it.label = it.row ? it.row.no : b.no; group.items.push(it); ITEMS.push(it); });
+        }
+      });
+      if (group.items.length) GROUPS.push(group);
+    });
+  });
+  form.innerHTML = out.join("");
+  updateProgress();
+}
+
+/* ---------- Answers & marking ---------- */
+function getAnswer(it) {
+  if (it.type === "single") {
+    const c = form.querySelector(`input[name="${it.key}"]:checked`);
+    return c ? [Number(c.value)] : null;
+  }
+  if (it.type === "multi") {
+    const c = [...form.querySelectorAll(`input[name="${it.key}"]:checked`)].map(x => Number(x.value));
+    return c.length ? c : null;
+  }
+  if (it.type === "truefalse") {
+    const v = it.block.statements.map((_, i) => {
+      const c = form.querySelector(`input[name="${it.key}-${i}"]:checked`);
+      return c ? c.value === "true" : null;
+    });
+    return v.every(x => x !== null) ? v : null;
+  }
+  if (it.type === "matching") {
+    const v = form.querySelector(`select[name="${it.key}"]`).value;
+    return v || null;
+  }
+  return null;
+}
+
+function isRight(it, a) {
+  if (a === null) return false;
+  if (it.type === "single" || it.type === "multi") {
+    return a.length === it.correct.length && it.correct.every(c => a.includes(c));
+  }
+  if (it.type === "truefalse") return it.block.statements.every((s, i) => a[i] === s.answer);
+  if (it.type === "matching") return a === it.row.answer;
+  return false;
+}
+
+function choiceText(it, origList) {
+  return origList.map(o => `${LETTERS[it.order.indexOf(o)]}. ${it.block.options[o]}`)
+    .sort().join("\n");
+}
+
+function markItem(it, a, ok) {
+  const el = document.getElementById("q-" + it.key);
+  el.classList.add("marked", ok ? "is-right" : "is-wrong");
+  el.querySelectorAll("input, select").forEach(x => x.disabled = true);
+  const v = el.querySelector(".verdict");
+  const head = ok ? `<b class="tag">✓ Correct!</b>` : `<b class="tag">✗ ${a === null ? "Not answered." : "Not quite."}</b>`;
+
+  if (it.type === "single" || it.type === "multi") {
+    el.querySelectorAll(".opt").forEach(lab => {
+      const o = Number(lab.dataset.orig);
+      const chosen = a !== null && a.includes(o);
+      if (it.correct.includes(o)) lab.classList.add(chosen || it.type === "single" ? "correct" : "missed");
+      else if (chosen) lab.classList.add("wrong");
+    });
+    const why = it.block.why ? `<span class="why">${esc(it.block.why)}</span>` : "";
+    if (ok) { v.innerHTML = head + why; return; }
+    const many = it.correct.length > 1;
+    v.innerHTML = head + (a !== null ? `You chose: <b>${br(choiceText(it, a))}</b><br>` : "") +
+      `The correct answer${many ? "s are" : " is"}:<span class="why"><b>${esc(choiceText(it, it.correct))}</b></span>` + why +
+      (it.type === "multi" ? `<span class="why" style="font-size:14px;color:var(--muted)">Dashed green box = a correct answer you did not tick.</span>` : "");
+  } else if (it.type === "truefalse") {
+    it.block.statements.forEach((s, i) => {
+      const row = el.querySelector(`tr[data-i="${i}"]`);
+      row.querySelector(`td[data-v="${s.answer}"]`).classList.add("good");
+      row.querySelector(`td[data-v="${!s.answer}"]`).classList.add("badc");
+    });
+    const [, yes, no] = it.block.headers || ["", "Bener", "Salah"];
+    const why = it.block.why ? `<span class="why">${esc(it.block.why)}</span>` : "";
+    v.innerHTML = head + (ok ? "" : `The green column shows the right answer for each statement: ` +
+      it.block.statements.map(s => `<b>${esc(s.label)}</b> = ${esc(s.answer ? yes : no)}`).join(", ") + ".") + why;
+  } else if (it.type === "matching") {
+    const sel = el.querySelector("select");
+    sel.classList.add(ok ? "ok" : "no");
+    const right = it.block.choices.find(c => c.key === it.row.answer);
+    v.innerHTML = ok ? head : head + `The correct answer is <b>${esc(right.text)}</b>.`;
+  }
+}
+
+function updateProgress() {
+  const n = ITEMS.filter(it => getAnswer(it) !== null).length;
+  document.getElementById("progText").textContent = `Answered ${n} of ${ITEMS.length}`;
+  document.getElementById("progBar").style.width = (n / ITEMS.length * 100) + "%";
+  form.querySelectorAll(".mrow select").forEach(s => s.classList.toggle("filled", !!s.value));
+  if (n === ITEMS.length) missingNote.textContent = "";
+}
+
+function cheer(score) {
+  if (score === 100) return "Sempurna! Perfect score! 🌟";
+  if (score >= 90) return "Hebat sekali! Excellent work! 🎉";
+  if (score >= 75) return "Bagus! Great job — check the red questions to learn even more. 👍";
+  if (score >= 60) return "Good effort! Read the texts again and have another try. 💪";
+  return "Keep practising! Read the texts in the coloured boxes again, then try once more. 📖";
+}
+
+function submit() {
+  if (submitted) return;
+  const answers = ITEMS.map(getAnswer);
+  const missing = ITEMS.filter((_, i) => answers[i] === null);
+  if (missing.length) {
+    const ok = confirm(`You have not answered ${missing.length} question${missing.length > 1 ? "s" : ""}.\n\nUnanswered questions are marked wrong. Submit anyway?`);
+    if (!ok) {
+      missingNote.textContent = `Still to answer: ${missing.length} question${missing.length > 1 ? "s" : ""}. Jumping to the first one.`;
+      document.getElementById("q-" + missing[0].key).scrollIntoView();
+      return;
+    }
+  }
+  submitted = true;
+  let right = 0;
+  ITEMS.forEach((it, i) => {
+    it.ok = isRight(it, answers[i]);
+    if (it.ok) right++;
+    markItem(it, answers[i], it.ok);
+  });
+  form.querySelectorAll(".q.essay").forEach(el => {
+    el.classList.add("marked");
+    el.querySelector("textarea").readOnly = true;
+  });
+
+  const total = ITEMS.length;
+  const score = Math.round(right / total * 100);
+  const name = document.getElementById("student").value.trim();
+  document.getElementById("student").disabled = true;
+  resultsEl.innerHTML = `
+    <div class="score-line">${name ? esc(name) + "'s score" : "Your score"}</div>
+    <div class="score-big">${score}<small> / 100</small></div>
+    <p class="cheer">${cheer(score)}</p>
+    <div class="counts">
+      <span class="c-ok"><b>${right}</b> correct</span>
+      <span class="c-bad"><b>${total - right}</b> incorrect</span>
+    </div>
+    ${GROUPS.map(g => {
+      const r = g.items.filter(it => it.ok).length;
+      return `<div class="gsec"><h4>${esc(g.label)} <span>${r} / ${g.items.length}</span></h4><div class="grid">` +
+        g.items.map(it => `<a href="#q-${it.key}" class="${it.ok ? "ok" : "bad"}" title="Number ${esc(it.label)}: ${it.ok ? "correct" : "incorrect"}">${esc(it.label)}</a>`).join("") +
+        `</div></div>`;
+    }).join("")}
+    <p class="grid-help">Green = correct, red = incorrect. Tap a number to go to that question.</p>
+    <div class="filter"><label><input type="checkbox" id="onlyWrong"> Show only the questions I got wrong</label></div>
+    <div class="actions">
+      <button type="button" class="secondary" id="printBtn">Print results</button>
+      <button type="button" class="primary" id="retryBtn">Try again</button>
+    </div>`;
+  resultsEl.classList.add("show");
+  document.getElementById("actions").hidden = true;
+  document.getElementById("progress").hidden = true;
+  missingNote.textContent = "";
+  document.getElementById("onlyWrong").addEventListener("change", e => document.body.classList.toggle("only-wrong", e.target.checked));
+  document.getElementById("printBtn").addEventListener("click", () => window.print());
+  document.getElementById("retryBtn").addEventListener("click", retry);
+  resultsEl.scrollIntoView();
+}
+
+function retry() {
+  if (!confirm("Start the exam again? Your answers will be cleared.")) return;
+  submitted = false;
+  document.body.classList.remove("only-wrong");
+  resultsEl.classList.remove("show");
+  resultsEl.innerHTML = "";
+  document.getElementById("student").disabled = false;
+  document.getElementById("actions").hidden = false;
+  document.getElementById("progress").hidden = false;
+  build();
+  window.scrollTo(0, 0);
+}
+
+/* ---------- Start-up ---------- */
+function start(data) {
+  if (!data || !Array.isArray(data.sections)) throw new Error("This file does not look like an exam questions file.");
+  DATA = data;
+  const m = data.meta = data.meta || {};
+  // Optional colour theme from the JSON, e.g. "theme": { "brand": "#6a3d8f", ... }
+  const vars = { brand: "--brand", brandDark: "--brand-dark", brandSoft: "--brand-soft", bg: "--bg", line: "--line" };
+  Object.entries(m.theme || {}).forEach(([k, v]) => {
+    if (vars[k] && /^#[0-9a-f]{3,8}$/i.test(v)) document.documentElement.style.setProperty(vars[k], v);
+  });
+  document.title = m.title || document.title;
+  document.getElementById("heroTitle").textContent = m.title || "Practice Exam";
+  document.getElementById("heroTopic").textContent = m.topic || "";
+  document.getElementById("loadError").hidden = true;
+  ["intro", "progress", "actions"].forEach(id => document.getElementById(id).hidden = false);
+  build();
+  const essays = form.querySelectorAll(".q.essay").length;
+  document.getElementById("heroSub").textContent =
+    `${ITEMS.length} scored questions · score out of 100` + (essays ? ` · plus ${essays} essay questions` : "");
+  document.getElementById("jump").innerHTML = data.sections.map(s =>
+    `<a href="#sec-${esc(s.id)}">${esc(s.title)}</a>`).join("");
+}
+
+function showLoader(err) {
+  console.warn("Could not load " + DATA_URL, err);
+  document.getElementById("dataName").textContent = DATA_URL;
+  document.getElementById("heroSub").textContent = "Choose the questions file to begin.";
+  document.getElementById("loadError").hidden = false;
+}
+
+document.getElementById("dataFile").addEventListener("change", e => {
+  const f = e.target.files[0];
+  if (!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    try { start(JSON.parse(rd.result)); }
+    catch (x) { document.getElementById("fileErr").textContent = "That file could not be read: " + x.message; }
+  };
+  rd.readAsText(f, "utf-8");
+});
+
+form.addEventListener("change", updateProgress);
+
+const lb = document.getElementById("lightbox");
+form.addEventListener("click", e => {
+  if (e.target.matches(".pics img")) {
+    lb.querySelector("img").src = e.target.src;
+    lb.classList.add("show");
+  }
+});
+lb.addEventListener("click", () => lb.classList.remove("show"));
+document.addEventListener("keydown", e => { if (e.key === "Escape") lb.classList.remove("show"); });
+document.getElementById("submitBtn").addEventListener("click", submit);
+document.getElementById("student").addEventListener("input", e => {
+  document.getElementById("progName").textContent = e.target.value.trim();
+});
+
+fetch(DATA_URL, { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(start)
+  .catch(showLoader);
+
+// Full screen toggle
+const fsBtn = document.getElementById("fsBtn");
+const rootEl = document.documentElement;
+const fsSupported = !!(rootEl.requestFullscreen || rootEl.webkitRequestFullscreen);
+const fsElement = () => document.fullscreenElement || document.webkitFullscreenElement;
+function updateFsBtn() {
+  const on = !!fsElement();
+  fsBtn.querySelector("span").textContent = on ? "Exit full screen" : "Full screen";
+  fsBtn.setAttribute("aria-pressed", on);
+  fsBtn.querySelector(".fs-in").style.display = on ? "none" : "";
+  fsBtn.querySelector(".fs-out").style.display = on ? "" : "none";
+}
+if (fsSupported) {
+  fsBtn.hidden = false;
+  fsBtn.addEventListener("click", () => {
+    try {
+      if (fsElement()) {
+        (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+      } else {
+        const p = (rootEl.requestFullscreen || rootEl.webkitRequestFullscreen).call(rootEl);
+        if (p && p.catch) p.catch(() => {});
+      }
+    } catch (e) {}
+  });
+  document.addEventListener("fullscreenchange", updateFsBtn);
+  document.addEventListener("webkitfullscreenchange", updateFsBtn);
+}
+</script>
+</body>
+</html>

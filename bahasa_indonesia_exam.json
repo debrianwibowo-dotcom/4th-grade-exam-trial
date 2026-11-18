@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Bahasa Indonesia: Teks Petunjuk — Practice Exam",
+    "topic": "Bahasa Indonesia · Asesmen Akhir Bab",
+    "notes": "Questions copied from the textbook's Asesmen Akhir Bab (20 questions, same order and same answer options). Options are stored in book order; the page shuffles them on every load. Answer letters refer to the book order.",
+    "theme": { "brand": "#b5432a", "brandDark": "#8a2f1b", "brandSoft": "#fbece7", "bg": "#fbf6f3", "line": "#ecdcd5" }
+  },
+  "sections": [
+    {
+      "id": "kipas",
+      "title": "Kipas dari Kertas",
+      "subtitle": "soal nomor 1–2",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Kerjakan soal-soal berikut!", "Teks petunjuk berikut untuk menjawab soal nomor 1 dan 2."],
+          "blocks": [
+            { "type": "passage", "style": "plain", "title": "Cara Membuat Kipas dari Kertas",
+              "text": "1)  Siapkan kertas berbentuk persegi dengan berbagai ukuran.\n2)  Gunakan kertas hvs, majalah bekas, atau kertas kado.\n3)  Siapkan lem kertas.\n4)  [. . . .]\n5)  Balikkan kertas dan lipat lagi ke arah yang berbeda dengan besar yang sama.\n6)  Lakukan langkah yang sama sampai seluruh bagian kertas terlipat.\n7)  Lakukan lagi langkah melipat kertas hingga menjadi dua bagian sama besar.\n8)  Lem sisi kertas yang saling berhadapan.\n9)  Pegang ujung bawah kipas lalu ikatlah menggunakan benang atau pita sekitar 2 cm di atas pangkal kipas sehingga membentuk tangkai kipas.\n10) [. . . .]" },
+            { "type": "single", "no": 1,
+              "q": "Langkah pembuatan kipas dari kertas untuk melengkapi nomor 4) adalah . . .",
+              "options": [
+                "Potong kertas menjadi dua bagian yang sama besar.",
+                "Lipat kertas pada satu bagian ujung sekitar 1–2 cm.",
+                "Tempelkan potongan kertas yang satu dengan potongan lain.",
+                "Gunting kertas menjadi beberapa potongan berukuran 1–2 cm."
+              ],
+              "answer": "b",
+              "why": "Langkah 5) berbunyi \"Balikkan kertas dan lipat lagi ke arah yang berbeda\". Kata \"lipat lagi\" berarti sebelumnya kertas sudah dilipat dulu, yaitu melipat satu ujung sekitar 1–2 cm." },
+            { "type": "single", "no": 2,
+              "q": "Langkah nomor 10) dapat dilengkapi dengan kalimat . . .",
+              "options": [
+                "Bentangkan kertas yang telah dilipat, lalu rekatkan agar saling menyatu.",
+                "Buka lipatan kertas agar mudah dipasang tangkai kipas sebagai pegangan.",
+                "Regangkan lipatan kertas agar saling membuka hingga terbentuk sebuah lingkaran.",
+                "Rentangkan lipatan kipas sehingga membentuk setengah lingkaran dan kipas siap dipakai."
+              ],
+              "answer": "d",
+              "why": "Langkah terakhir adalah membuka kipas. Tangkai sudah dibuat di langkah 9), dan kipas berbentuk setengah lingkaran (lihat gambar kipas), bukan lingkaran penuh." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listrik",
+      "title": "Aman Memakai Alat Listrik",
+      "subtitle": "soal nomor 3–4",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Teks berikut untuk menjawab soal nomor 3 dan 4."],
+          "blocks": [
+            { "type": "passage", "style": "plain",
+              "text": "1) Baca buku panduan pemakaian alat listrik.\n2) Cermati daya listrik yang digunakan di rumah.\n3) Hati-hati saat menyalakan atau mematikan perlengkapan listrik di rumah.\n4) Berikan sedikit ruang di sekitar perlengkapan listrik.\n5) Jangan menyentuh perlengkapan listrik saat tangan dalam keadaan basah.\n6) Pakailah alat keselamatan.\n7) Janganlah meletakkan perlengkapan listrik di dekat bahan kimia.\n8) Matikan perlengkapan listrik ketika listrik mati secara tiba-tiba." },
+            { "type": "truefalse", "no": 3,
+              "q": "Tentukan Sesuai atau Tidak Sesuai untuk pernyataan-pernyataan berikut!",
+              "headers": ["Pernyataan", "Sesuai", "Tidak Sesuai"],
+              "statements": [
+                { "label": "a", "text": "Membiarkan perlengkapan listrik tetap menyala saat listrik mati tiba-tiba.", "answer": false },
+                { "label": "b", "text": "Memberi jarak atau ruang di sekitar alat listrik yang sedang digunakan.", "answer": true },
+                { "label": "c", "text": "Meletakkan bahan kimia jauh dari tempat perangkat elektronik berada.", "answer": true }
+              ],
+              "why": "a. Tidak sesuai: langkah 8) menyuruh mematikan alat listrik saat listrik mati tiba-tiba. b. Sesuai dengan langkah 4). c. Sesuai dengan langkah 7): alat listrik tidak boleh berada di dekat bahan kimia, jadi bahan kimia dijauhkan." },
+            { "type": "single", "no": 4,
+              "q": "Berdasarkan isi teks, prosedur yang paling utama dalam menggunakan perlengkapan listrik adalah . . .",
+              "options": [
+                "Memastikan tangan dalam keadaan kering sebelum menyentuh perlengkapan listrik.",
+                "Membaca buku petunjuk sebelum menggunakan alat listrik untuk pertama kali.",
+                "Memberi ruang yang cukup di sekitar perlengkapan listrik agar tidak panas.",
+                "Mematikan semua perlengkapan listrik ketika listrik padam secara tiba-tiba."
+              ],
+              "answer": "b",
+              "why": "Langkah yang paling utama ditulis paling awal, yaitu langkah 1): \"Baca buku panduan pemakaian alat listrik.\"" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kompos",
+      "title": "Pupuk Kompos",
+      "subtitle": "soal nomor 5–7",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Teks petunjuk berikut untuk menjawab soal nomor 5–7."],
+          "blocks": [
+            { "type": "passage", "style": "plain",
+              "text": "1) Cara Membuat Pupuk Kompos\n\n2) Kita semua menyadari bahwa pengolahan sampah bisa dimulai dari rumah. Kita bisa mengolah sampah organik di rumah menjadi sesuatu yang bermanfaat. Berikut langkah-langkah membuat pupuk kompos.\n\n3) [. . . .]\n    • pisau\n    • sisa sayur dan buah, dedaunan, dan rumput kering\n    • 10 ml larutan bakteri EM4\n    • bak penampungan atau karung\n\n4) Langkah-Langkah:\n    a) Kumpulkan sampah organik yang ada di rumah, misalnya sisa sayur dan buah, dedaunan, dan rumput kering.\n    b) Campurkan sampah organik yang sudah dipotong kecil-kecil.\n    c) Siapkan 10 ml larutan bakteri EM4.\n    d) Percikkan larutan EM4 ke sampah organik, lalu campur hingga merata sampai bahan menjadi basah.\n    e) Pupuk kompos yang sudah dicampur lalu dimasukkan ke dalam bak penampungan atau karung. Proses fermentasi dari bahan hingga pupuk siap digunakan lebih kurang 2–3 bulan.\n    f) Untuk mempercepat prosesnya, bisa mencampur kembali bahan tersebut dengan percikan air setiap 2 minggu sekali. Setelah proses tersebut selesai, pupuk kompos siap digunakan.\n\n5) [. . . .]" },
+            { "type": "single", "no": 5,
+              "q": "Bagian 3) seharusnya berisi struktur . . . teks petunjuk.",
+              "options": ["tujuan", "alat dan bahan", "langkah-langkah", "penutup atau simpulan"],
+              "answer": "b",
+              "why": "Bagian 3) berisi daftar benda yang disiapkan (pisau, sampah organik, EM4, karung). Itu adalah bagian alat dan bahan." },
+            { "type": "single", "no": 6,
+              "q": "Paragraf yang sesuai untuk melengkapi bagian 5) adalah . . .",
+              "options": [
+                "Mengolah sampah plastik dapat dilakukan sendiri di rumah. Kamu dapat memilah sampah-sampah itu. Kemudian, tempatkan di wadah tertutup.",
+                "Sampah organik jika tidak dikelola dengan baik dapat menjadi sarang penyakit. Sampah organik dapat mengundang lalat karena mengeluarkan bau busuk. Sebaiknya, tempatkan sampah organik di dalam wadah tertutup.",
+                "Mengolah sisa sampah organik di rumah untuk dijadikan pupuk kompos dapat membantu menjaga lingkungan. Selain itu, mengolah pupuk kompos dapat menyuburkan tanaman di area rumahmu.",
+                "Sampah organik adalah sampah yang berasal dari hewan dan tumbuhan. Contoh sampah organik adalah sisa sayur, kulit pisang, buah yang busuk, kulit bawang, dan sejenisnya. Sampah organik terbagi menjadi sampah organik basah dan kering."
+              ],
+              "answer": "c",
+              "why": "Bagian 5) adalah penutup. Penutup yang cocok membahas manfaat membuat pupuk kompos dari sampah organik. Pilihan lain membahas sampah plastik atau hanya menjelaskan sampah organik." },
+            { "type": "single", "no": 7,
+              "q": "Berikut yang merupakan kalimat perintah adalah . . .",
+              "options": [
+                "Berikut langkah-langkah membuat pupuk kompos.",
+                "Kita semua menyadari bahwa pengolahan sampah bisa dimulai dari rumah.",
+                "Kumpulkan sampah organik yang ada di rumah, misalnya sisa sayur dan buah.",
+                "Kita bisa mengolah sampah organik di rumah menjadi sesuatu yang bermanfaat."
+              ],
+              "answer": "c",
+              "why": "Kalimat perintah menyuruh pembaca melakukan sesuatu. \"Kumpulkan\" adalah kata kerja perintah." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kincir",
+      "title": "Kincir Angin",
+      "subtitle": "soal nomor 8–10",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Teks petunjuk berikut untuk menjawab soal nomor 8–10."],
+          "blocks": [
+            { "type": "passage", "style": "plain",
+              "text": "1) Siapkan kertas berbentuk bujur sangkar ukuran 20×20 cm.\n2) Buatlah garis diagonal pada kertas dan potong ujung garis menggunakan gunting, jangan sampai terputus.\n3) Lipat sudut yang berselang-selang ke tengah dan tempel dengan double tape.\n4) Buat tekukan di ujung kawat. Masukkan ujung kawat ke lubang kincir.\n5) Sisipkan kawat ke dalam sedotan plastik.\n6) Tekuk kawat agar kincir angin tidak lepas.\n7) Tempatkan kincir angin di kaki baling-baling angin.\n8) Untuk membuat kaki baling-baling angin, gunakan botol bekas yang berisi pasir.\n9) Tancapkan kincir angin ke dalam pasir." },
+            { "type": "truefalse", "no": 8,
+              "q": "Tentukan Benar atau Salah berdasarkan pernyataan-pernyataan berikut!",
+              "headers": ["Pernyataan", "Benar", "Salah"],
+              "statements": [
+                { "label": "a", "text": "Kalimat \"Lipat sudut yang berselang-selang ke tengah\" termasuk kalimat perintah.", "answer": true },
+                { "label": "b", "text": "Kata \"gunakan\" dalam teks menunjukkan ajakan.", "answer": false },
+                { "label": "c", "text": "Kata kerja seperti \"siapkan\" dan \"buatlah\" menunjukkan tindakan yang harus dilakukan.", "answer": true }
+              ],
+              "why": "a. Benar: \"Lipat\" menyuruh pembaca melakukan sesuatu. b. Salah: \"gunakan\" adalah kata perintah, bukan ajakan (ajakan memakai kata seperti \"mari\" atau \"ayo\"). c. Benar." },
+            { "type": "multi", "no": 9,
+              "q": "Tentukan bahan dan alat yang terdapat dalam teks petunjuk tersebut!\nPilihlah jawaban yang benar! Jawaban benar lebih dari satu.",
+              "options": ["Gunting", "Lem kertas", "Sedotan plastik"],
+              "answer": ["a", "c"],
+              "why": "Gunting ada di langkah 2) dan sedotan plastik di langkah 5). Teks memakai double tape, bukan lem kertas." },
+            { "type": "multi", "no": 10,
+              "q": "Tentukan langkah pemasangan kawat dalam teks petunjuk tersebut!\nPilihlah jawaban yang benar! Jawaban benar lebih dari satu.",
+              "options": ["Buat tekukan di ujung kawat.", "Masukkan ujung kawat ke lubang kincir.", "Tempel ujung kawat dengan double tape."],
+              "answer": ["a", "b"],
+              "why": "Langkah 4): \"Buat tekukan di ujung kawat. Masukkan ujung kawat ke lubang kincir.\" Double tape dipakai untuk menempel sudut kertas, bukan kawat." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poster",
+      "title": "Poster Sampah Plastik",
+      "subtitle": "soal nomor 11–12",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Poster berikut untuk menjawab soal nomor 11 dan 12."],
+          "blocks": [
+            { "type": "passage", "style": "plain",
+              "img": "bahasa_indonesia_exam_img/poster_sampah_plastik.jpg",
+              "imgAlt": "Poster: botol plastik dicoret, tas kain, dan tas kertas berisi sayur",
+              "text": "1) Jangan menggunakan bahan plastik sekali pakai.\n2) Gunakan tas kain sebagai kantong belanja.\n3) Pilih kemasan berbahan kertas atau kardus." },
+            { "type": "single", "no": 11,
+              "q": "Poster tersebut termasuk petunjuk untuk . . . .",
+              "options": ["membuat sesuatu", "melakukan sesuatu", "memainkan sesuatu", "menggunakan sesuatu"],
+              "answer": "b",
+              "why": "Poster tidak mengajarkan cara membuat, memainkan, atau memakai suatu benda. Poster berisi petunjuk melakukan kegiatan, yaitu mengurangi sampah plastik." },
+            { "type": "single", "no": 12,
+              "q": "Ciri kebahasaan yang terdapat dalam teks petunjuk tersebut adalah . . .",
+              "options": [
+                "Langkah 1) menggunakan kata kerja tanpa imbuhan.",
+                "Langkah 2) menggunakan kata kerja berpartikel –lah.",
+                "Langkah 1) menggunakan kata larangan.",
+                "Langkah 3) menggunakan bentuk saran."
+              ],
+              "answer": "c",
+              "why": "Langkah 1) memakai kata larangan \"Jangan\". Kata \"menggunakan\" memakai imbuhan, \"Gunakan\" tidak memakai -lah, dan \"Pilih\" adalah perintah, bukan saran." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galon",
+      "title": "Tempat Pakaian dari Galon",
+      "subtitle": "soal nomor 13–15",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Teks petunjuk berikut untuk menjawab soal nomor 13–15."],
+          "blocks": [
+            { "type": "passage", "style": "plain", "title": "Tempat Pakaian dari Galon Bekas Air Mineral",
+              "text": "[. . . .]\n\nAlat dan Bahan\n1. Galon bekas air mineral yang sudah kosong\n2. Gunting\n3. Cat akrilik (opsional)\n4. Kuas (opsional)\n5. Pita atau tali (opsional)\n6. Spidol permanen (opsional)\n\nLangkah-Langkah\n1. Pastikan galon bekas sudah bersih dan kering.\n2. Gunakan spidol permanen untuk menggambar garis-garis panduan memotong pada galon bekas. Kamu dapat memotong galon dengan ukuran 20 cm dari bagian atas galon.\n3. Potong sesuai dengan garis-garis yang kamu gambar. Berhati-hatilah saat memotong.\n4. Pasanglah pita atau selotip di bagian yang terpotong.\n5. Jika kamu ingin menghias tempat pakaian, gunakan cat akrilik dan kuas. Hias sesuai seleramu. Biarkan cat kering sepenuhnya.\n6. Terakhir, membuat pegangan, potonglah sebagian pegangan galon bekas yang tersisa. Pastikan pegangan ini cukup kuat untuk menopang beban pakaian.\n\n    Sekarang, kamu lebih mudah mengumpulkan pakaian kotor dan menjaga kamarmu tetap rapi. Selamat mencoba!" },
+            { "type": "single", "no": 13,
+              "q": "Tujuan teks petunjuk tersebut adalah . . .",
+              "options": [
+                "Menjelaskan langkah membuat tempat pakaian dari galon bekas.",
+                "Memberi tahu cara menyimpan pakaian agar tidak berantakan.",
+                "Mengajak membuat kamar lebih rapi dengan galon bekas.",
+                "Menjelaskan langkah membersihkan kamar."
+              ],
+              "answer": "a",
+              "why": "Judul dan langkah-langkahnya menjelaskan cara membuat tempat pakaian dari galon bekas air mineral." },
+            { "type": "single", "no": 14,
+              "q": "Pembuka yang sesuai dengan teks petunjuk tersebut adalah . . .",
+              "options": [
+                "Tahukah kami jika galon bekas air mineral dapat diolah menjadi barang bermanfaat? Ikuti langkah-langkah berikut!",
+                "Tempat pakaian kotor biasanya tersedia dalam berbagai ukuran dan warna. Pelajari ukuran-ukurannya sebagai berikut!",
+                "Pakaian kotor yang berserakan dapat menjadi sarang penyakit. Rapikan pakaian kotor agar tidak menjadi sarang penyakit!",
+                "Mengurangi limbah dapat dilakukan dari rumah. Kumpulkan galon bekas air mineral untuk diolah kembali!"
+              ],
+              "answer": "a",
+              "why": "Pembuka yang cocok mengenalkan bahwa galon bekas bisa diolah menjadi barang bermanfaat, lalu mengajak pembaca mengikuti langkah-langkahnya." },
+            { "type": "single", "no": 15,
+              "q": "Ciri kebahasaan dalam teks petunjuk berupa kata hubung bermakna urutan adalah . . . .",
+              "options": ["dan", "dari", "jika", "terakhir"],
+              "answer": "d",
+              "why": "\"Terakhir\" (langkah 6) menunjukkan urutan langkah. \"Dan\" menggabungkan, \"dari\" menunjukkan asal, dan \"jika\" menunjukkan syarat." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lemon",
+      "title": "Listrik dari Lemon",
+      "subtitle": "soal nomor 16–17",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Teks petunjuk berikut untuk menjawab soal nomor 16 dan 17."],
+          "blocks": [
+            { "type": "passage", "style": "plain", "title": "Cara Membuat Listrik dari Lemon",
+              "text": "Listrik yang digunakan sehari-hari berasal dari tenaga air, uap, diesel, matahari, ataupun baterai dan aki. Selain itu, lemon pun dapat menghasilkan energi listrik. Mari, kita buktikan!\n\nAlat dan Bahan\n1. 6 buah lemon\n2. 6 buah kabel penjepit buaya\n3. 6 buah koin tembaga\n4. 6 buah paku\n5. Lampu LED\n\nLangkah-Langkah\n1. Tancapkan 1 paku dan 1 koin logam pada tiap-tiap buah lemon.\n2. Hubungkan semua koin tembaga dan paku dengan kabel penjepit buaya.\n3. Hubungkan tiap kabel penjepit buaya pada satu lemon dengan lemon lainnya.\n4. Hubungkan kabel penjepit buaya yang terhubung dengan pelat tembaga dengan kutub negatif LED.\n5. Hubungkan kabel penjepit buaya yang terhubung dengan paku dengan kutub positif LED.\n\nPercobaan di atas membuktikan bahwa lemon dapat menghasilkan energi listrik." },
+            { "type": "multi", "no": 16,
+              "q": "Tentukan bahan-bahan yang dibutuhkan dalam teks petunjuk tersebut!\nPilihlah jawaban yang benar! Jawaban benar lebih dari satu.",
+              "options": ["Lemon", "Papan jam digital", "Lampu LED"],
+              "optionImgs": ["bahasa_indonesia_exam_img/lemon.jpg", "bahasa_indonesia_exam_img/papan_jam_digital.jpg", "bahasa_indonesia_exam_img/lampu_led.jpg"],
+              "answer": ["a", "c"],
+              "why": "Lemon dan lampu LED ada di daftar Alat dan Bahan. Papan jam digital tidak ada di daftar." },
+            { "type": "multi", "no": 17,
+              "q": "Bagaimana hasil akhir teks petunjuk tersebut?\nPilihlah jawaban yang benar! Jawaban benar lebih dari satu.",
+              "options": ["Lampu LED teraliri listrik.", "Lampu LED dapat menyala.", "Kabel penjepit buaya dapat menyala."],
+              "answer": ["a", "b"],
+              "why": "Listrik dari lemon mengalir ke lampu LED sehingga lampu menyala. Kabel hanya menghantarkan listrik dan tidak bisa menyala." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lampu",
+      "title": "Lampu Minyak dari Kaleng",
+      "subtitle": "soal nomor 18–20",
+      "parts": [
+        {
+          "title": "",
+          "instructions": ["Teks berikut untuk menjawab soal nomor 18–20."],
+          "blocks": [
+            { "type": "passage", "style": "plain", "title": "Lampu Minyak dari Kaleng Bekas",
+              "text": "Siapkan bahan-bahan untuk membuat lampu minyak. bahan-bahan tersebut di antaranya kaleng minum bekas, kapas, minyak jelantah, gunting, dan korek api.\n\n    Potong kaleng menjadi dua. Sisakan bagian bawah dengan tinggi 5 cm. Kemudian, gunting sisi atas sepanjang 1 cm. Lakukan hingga seluruh sisi tergunting. Beri lubang di tiga bagian sisi yang telah digunting tadi sebagai tempat sumbu. Bentuk sisi yang telah digunting agar tampak menarik. Lipatlah kapas. Kemudian, masukkan ke lubang sumbu. Selanjutnya, tuang minyak jelantah ke dalam kaleng sebagai bahan bakar.\n\n    Lampu minyak siap digunakan. Ketika menggunakan lampu minyak, kita harus hati-hati agar tidak membahayakan dan menyebabkan kebakaran." },
+            { "type": "single", "no": 18,
+              "q": "Urutan langkah yang tepat setelah memotong kaleng menjadi dua adalah . . .",
+              "options": [
+                "Melipat kapas, menuangkan minyak, lalu melubangi sisi kaleng.",
+                "Menuangkan minyak, memasukkan kapas, lalu menyalakan api.",
+                "Menggunting sisi atas, melubangi bagian sisi, lalu membentuknya.",
+                "Membuat lubang sumbu, memotong kaleng lagi, lalu melipat kapas."
+              ],
+              "answer": "c",
+              "why": "Setelah kaleng dipotong: gunting sisi atas → beri lubang di sisi → bentuk sisi agar menarik. Baru setelah itu kapas dan minyak." },
+            { "type": "multi", "no": 19,
+              "q": "Manakah kalimat yang merupakan kalimat perintah?\nPilihlah jawaban yang benar! Jawaban benar lebih dari satu.",
+              "options": ["Lipatlah kapas.", "Potong kaleng menjadi dua.", "Lampu minyak siap digunakan."],
+              "answer": ["a", "b"],
+              "why": "\"Lipatlah\" dan \"Potong\" menyuruh pembaca melakukan sesuatu. \"Lampu minyak siap digunakan\" hanya memberi tahu (kalimat berita)." },
+            { "type": "truefalse", "no": 20,
+              "q": "Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+              "headers": ["Pernyataan", "Benar", "Salah"],
+              "statements": [
+                { "label": "a", "text": "Minyak yang diperlukan adalah minyak yang belum pernah digunakan untuk menggoreng.", "answer": false },
+                { "label": "b", "text": "Kapas berfungsi sebagai sumbu untuk menyalakan api pada lampu.", "answer": true },
+                { "label": "c", "text": "Lampu minyak yang menyala perlu dijauhkan dari benda-benda sekitarnya.", "answer": true }
+              ],
+              "why": "a. Salah: yang dipakai minyak jelantah, yaitu minyak bekas menggoreng. b. Benar: kapas dimasukkan ke lubang sumbu. c. Benar: agar tidak menyebabkan kebakaran." }
+          ]
+        }
+      ]
+    }
+  ]
+}
