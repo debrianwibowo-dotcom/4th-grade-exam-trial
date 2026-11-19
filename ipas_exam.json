@@ -2,7 +2,7 @@
  "meta": {
   "title": "IPAS Kelas 4 — Practice Exam",
   "topic": "IPAS · Asesmen Akhir Bab",
-  "notes": "Questions copied from the textbook's two Asesmen Akhir Bab (15 + 15 questions, same order and same answer options). Options are stored in book order; the page shuffles them on every load. Answer letters refer to the book order.",
+  "notes": "Questions copied from the textbook's two Asesmen Akhir Bab (15 + 15 questions, same order and same answer options), plus 15 extra questions written from the teacher's discussion notes. Options are stored in book order; the page shuffles them on every load. Answer letters refer to the book order.",
   "multiHint": "Pilihlah jawaban yang benar! Jawaban benar lebih dari satu.",
   "theme": {
    "brand": "#2b6cb0",
@@ -567,6 +567,267 @@
        ],
        "answer": "c",
        "why": "Karena tinggal dekat laut yang luas, masyarakat pesisir bekerja sebagai nelayan. Artinya, mereka bertahan hidup dengan menyesuaikan diri pada kondisi lingkungannya."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tambahan",
+   "title": "Latihan Tambahan",
+   "subtitle": "dari materi pembahasan guru · soal nomor 1–15",
+   "parts": [
+    {
+     "title": "",
+     "instructions": [
+      "Kerjakan soal-soal berikut! Soal ini disusun dari materi pembahasan guru tentang keanekaragaman hayati dan kondisi geografis Indonesia."
+     ],
+     "blocks": [
+      {
+       "type": "single",
+       "no": 1,
+       "q": "Orang utan memiliki habitat asli di . . . .",
+       "options": [
+        "hutan hujan tropis Pulau Sumatra dan Kalimantan",
+        "padang rumput Nusa Tenggara",
+        "hutan bakau di pesisir Papua",
+        "pegunungan bersalju Jayawijaya"
+       ],
+       "answer": "a",
+       "why": "Orang utan memiliki habitat asli di hutan hujan tropis Pulau Sumatra dan Kalimantan. Orang utan hidup di hutan lebat dengan banyak pepohonan sebagai tempat mencari makan dan berlindung."
+      },
+      {
+       "type": "single",
+       "no": 2,
+       "q": "Komodo termasuk hewan endemik Indonesia. Komodo merupakan . . . terbesar di dunia.",
+       "options": [
+        "mamalia",
+        "reptil",
+        "amfibi",
+        "burung"
+       ],
+       "answer": "b",
+       "why": "Komodo adalah reptil terbesar di dunia yang termasuk hewan endemik Indonesia."
+      },
+      {
+       "type": "multi",
+       "no": 3,
+       "q": "Komodo hidup secara alami di beberapa pulau di Provinsi Nusa Tenggara Timur. Manakah pulau tempat komodo hidup secara alami?",
+       "options": [
+        "Pulau Rinca.",
+        "Pulau Bali.",
+        "Pulau Padar."
+       ],
+       "answer": [
+        "a",
+        "c"
+       ],
+       "why": "Komodo hidup secara alami di Pulau Komodo, Rinca, Flores, dan Padar di Nusa Tenggara Timur. Bali tidak termasuk."
+      },
+      {
+       "type": "truefalse",
+       "no": 4,
+       "q": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang ciri-ciri komodo!",
+       "headers": [
+        "Pernyataan",
+        "Benar",
+        "Salah"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Komodo memiliki tubuh yang besar.",
+         "answer": true
+        },
+        {
+         "label": "b",
+         "text": "Komodo hanya memakan tumbuhan.",
+         "answer": false
+        },
+        {
+         "label": "c",
+         "text": "Komodo memiliki lidah bercabang.",
+         "answer": true
+        }
+       ],
+       "why": "Komodo dikenal memiliki tubuh besar, lidah bercabang, dan kemampuan berburu yang kuat. Karena komodo berburu mangsa, komodo bukan pemakan tumbuhan."
+      },
+      {
+       "type": "single",
+       "no": 5,
+       "q": "Fauna endemik adalah hewan yang . . . .",
+       "options": [
+        "hanya hidup secara alami di wilayah tertentu dan tidak ditemukan secara alami di tempat lain",
+        "tersebar secara alami di seluruh kawasan Asia Tenggara",
+        "dipelihara masyarakat untuk memenuhi kebutuhan sehari-hari",
+        "selalu berpindah ke wilayah lain setiap pergantian musim"
+       ],
+       "answer": "a",
+       "why": "Fauna endemik hanya hidup secara alami di wilayah tertentu, misalnya burung maleo yang hanya hidup secara alami di Sulawesi."
+      },
+      {
+       "type": "single",
+       "no": 6,
+       "q": "Pemiaraan hewan ternak tidak termasuk tujuan pembentukan cagar alam. Hal ini karena hewan ternak merupakan . . . .",
+       "options": [
+        "hewan liar yang hidup di habitat aslinya",
+        "hewan piaraan yang dibudidayakan untuk kebutuhan manusia",
+        "hewan langka yang terancam punah",
+        "hewan endemik yang hanya ada di Indonesia"
+       ],
+       "answer": "b",
+       "why": "Hewan ternak adalah hewan piaraan yang dibudidayakan untuk kebutuhan manusia. Cagar alam melindungi flora, fauna, dan ekosistem alami yang hidup liar di habitat aslinya."
+      },
+      {
+       "type": "multi",
+       "no": 7,
+       "q": "Banyak tumbuhan langka terancam punah. Manakah penyebab tumbuhan langka terancam punah?",
+       "options": [
+        "Penebangan hutan.",
+        "Pembuatan cagar alam.",
+        "Alih fungsi lahan."
+       ],
+       "answer": [
+        "a",
+        "c"
+       ],
+       "why": "Tumbuhan langka terancam punah akibat penebangan, alih fungsi lahan, dan kerusakan lingkungan. Cagar alam justru dibuat untuk melindungi tumbuhan langka."
+      },
+      {
+       "type": "single",
+       "no": 8,
+       "q": "Matoa sering dimanfaatkan sebagai tanaman peneduh karena . . . .",
+       "options": [
+        "buahnya terasa manis",
+        "daunnya lebat dan pohonnya rindang",
+        "berasal dari Papua",
+        "memiliki nama Latin Pometia pinnata"
+       ],
+       "answer": "b",
+       "why": "Matoa memiliki pohon yang rindang dan daun yang lebat, sehingga sering dimanfaatkan sebagai peneduh. Buahnya memang manis, tetapi bukan itu alasan matoa dipakai sebagai peneduh."
+      },
+      {
+       "type": "truefalse",
+       "no": 9,
+       "q": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang akibat penebangan hutan dan eksploitasi alam!",
+       "headers": [
+        "Pernyataan",
+        "Benar",
+        "Salah"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Flora dan fauna kesulitan memperoleh tempat tinggal, makanan, dan berkembang biak.",
+         "answer": true
+        },
+        {
+         "label": "b",
+         "text": "Rantai makanan dan interaksi antarorganisme menjadi terganggu.",
+         "answer": true
+        },
+        {
+         "label": "c",
+         "text": "Kegiatan konservasi alam oleh masyarakat menjadi meningkat.",
+         "answer": false
+        }
+       ],
+       "why": "Penebangan hutan merusak habitat alami, sehingga flora dan fauna sulit mendapat tempat tinggal dan makanan. Makhluk hidup saling bergantung, jadi rantai makanan ikut terganggu. Eksploitasi alam justru merusak lingkungan, bukan meningkatkan konservasi."
+      },
+      {
+       "type": "single",
+       "no": 10,
+       "q": "Pemindahan masyarakat ke daerah sepi penduduk tidak selalu mengganggu keanekaragaman hayati. Ancaman terhadap keanekaragaman hayati dapat diminimalkan jika . . . .",
+       "options": [
+        "hutan dibuka seluas-luasnya untuk permukiman",
+        "perpindahan dilakukan dengan perencanaan yang baik dan tetap menjaga kelestarian lingkungan",
+        "semua hewan liar dipindahkan ke kebun binatang",
+        "permukiman baru dibangun di dalam kawasan cagar alam"
+       ],
+       "answer": "b",
+       "why": "Dampak perpindahan penduduk terhadap lingkungan bergantung pada cara pengelolaan wilayahnya. Dengan perencanaan yang baik dan menjaga kelestarian lingkungan, ancamannya dapat diminimalkan."
+      },
+      {
+       "type": "single",
+       "no": 11,
+       "q": "Suhu udara di hutan hujan tropis sepanjang tahun adalah . . . .",
+       "options": [
+        "sangat rendah dan bersalju",
+        "hangat dan stabil",
+        "sangat panas dan kering",
+        "berubah-ubah dari dingin ke panas"
+       ],
+       "answer": "b",
+       "why": "Hutan hujan tropis memiliki suhu hangat dan stabil sepanjang tahun sehingga mendukung pertumbuhan vegetasi yang lebat. Suhu yang sangat rendah bukan ciri hutan hujan tropis."
+      },
+      {
+       "type": "truefalse",
+       "no": 12,
+       "q": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang manfaat mangrove bagi wilayah pesisir!",
+       "headers": [
+        "Pernyataan",
+        "Benar",
+        "Salah"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Tajuk daun mangrove membuat lingkungan pesisir menjadi lebih kering.",
+         "answer": false
+        },
+        {
+         "label": "b",
+         "text": "Sedimen yang tertahan akar mangrove membuat garis pantai lebih stabil dan mengurangi abrasi.",
+         "answer": true
+        },
+        {
+         "label": "c",
+         "text": "Mangrove melindungi kawasan pesisir dari banjir rob dan kerusakan akibat gelombang laut.",
+         "answer": true
+        }
+       ],
+       "why": "Tajuk daun mangrove membantu menjaga kelembapan lingkungan, bukan membuatnya kering. Akar mangrove menahan sedimen sehingga garis pantai stabil, dan meredam ombak sehingga pesisir terlindung dari abrasi dan banjir rob."
+      },
+      {
+       "type": "single",
+       "no": 13,
+       "q": "Pertanian lahan kering mengandalkan curah hujan untuk memenuhi kebutuhan air tanaman. Tanaman yang biasanya ditanam di lahan kering adalah . . . .",
+       "options": [
+        "padi sawah",
+        "jagung dan singkong",
+        "bakau",
+        "eceng gondok"
+       ],
+       "answer": "b",
+       "why": "Pertanian lahan kering dipakai untuk menanam palawija, jagung, atau singkong. Padi sawah ditanam di pertanian lahan basah yang dekat sumber air."
+      },
+      {
+       "type": "single",
+       "no": 14,
+       "q": "Penduduk desa memakai sungai untuk menyediakan perahu bagi masyarakat antardesa. Kegiatan ini menunjukkan fungsi sungai sebagai . . . .",
+       "options": [
+        "sarana transportasi",
+        "sumber irigasi sawah",
+        "penjaga kelembapan tanah",
+        "tempat pembuangan sampah"
+       ],
+       "answer": "a",
+       "why": "Menyediakan perahu bagi masyarakat berkaitan dengan fungsi sungai sebagai sarana transportasi, bukan untuk menjaga pertumbuhan tanaman."
+      },
+      {
+       "type": "multi",
+       "no": 15,
+       "q": "Daerah yang memiliki lereng terjal kurang cocok untuk dibangun kota besar. Manakah alasannya?",
+       "options": [
+        "Berisiko terjadi longsor.",
+        "Membutuhkan biaya pembangunan yang besar.",
+        "Selalu memiliki curah hujan yang rendah."
+       ],
+       "answer": [
+        "a",
+        "b"
+       ],
+       "why": "Daerah berlereng terjal sulit dibangun infrastruktur karena berisiko longsor sehingga membutuhkan biaya pembangunan yang besar. Curah hujan tidak ada hubungannya dengan lereng terjal."
       }
      ]
     }
