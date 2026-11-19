@@ -1,0 +1,576 @@
+{
+ "meta": {
+  "title": "IPAS Kelas 4 — Practice Exam",
+  "topic": "IPAS · Asesmen Akhir Bab",
+  "notes": "Questions copied from the textbook's two Asesmen Akhir Bab (15 + 15 questions, same order and same answer options). Options are stored in book order; the page shuffles them on every load. Answer letters refer to the book order.",
+  "multiHint": "Pilihlah jawaban yang benar! Jawaban benar lebih dari satu.",
+  "theme": {
+   "brand": "#2b6cb0",
+   "brandDark": "#1e4e82",
+   "brandSoft": "#e8f1fb",
+   "bg": "#f4f8fc",
+   "line": "#d6e3f1"
+  }
+ },
+ "sections": [
+  {
+   "id": "iklim",
+   "title": "Iklim dan Musim di Tanah Airku",
+   "subtitle": "Asesmen Akhir Bab · soal nomor 1–15",
+   "parts": [
+    {
+     "title": "",
+     "instructions": [
+      "Kerjakan soal-soal berikut!"
+     ],
+     "blocks": [
+      {
+       "type": "passage",
+       "style": "plain",
+       "text": "Perhatikan gambar pola pergerakan angin monsun berikut untuk menjawab soal nomor 1 dan 2!",
+       "img": "ipas_exam_img/angin_monsun.jpg"
+      },
+      {
+       "type": "single",
+       "no": 1,
+       "q": "Secara normal pergerakan angin monsun tersebut berlangsung pada bulan . . . .",
+       "options": [
+        "Januari–Juni",
+        "Oktober–April",
+        "Mei–September",
+        "Juli–Desember"
+       ],
+       "answer": "b",
+       "why": "Panah pada peta bergerak dari utara (Benua Asia, Laut Cina Selatan) ke selatan menuju Benua Australia. Itu angin monsun barat, yang berembus sekitar bulan Oktober–April."
+      },
+      {
+       "type": "truefalse",
+       "no": 2,
+       "q": "Pembagian musim di Indonesia dipengaruhi oleh pergerakan angin monsun. Berdasarkan gambar tersebut, jawablah Ya atau Tidak untuk setiap pertanyaan berikut!",
+       "headers": [
+        "Pertanyaan",
+        "Ya",
+        "Tidak"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Apakah gambar tersebut menunjukkan pergerakan angin monsun barat?",
+         "answer": true
+        },
+        {
+         "label": "b",
+         "text": "Apakah angin monsun tersebut berembus dari Benua Asia menuju Benua Australia?",
+         "answer": true
+        },
+        {
+         "label": "c",
+         "text": "Apakah musim yang terjadi di Indonesia saat pergerakan angin monsun tersebut adalah musim kemarau?",
+         "answer": false
+        }
+       ],
+       "why": "a. Ya, angin dari arah Asia (barat laut) adalah angin monsun barat. b. Ya, panahnya bergerak dari Asia ke Australia. c. Tidak: angin monsun barat membawa banyak uap air, jadi Indonesia mengalami musim hujan, bukan kemarau."
+      },
+      {
+       "type": "multi",
+       "no": 3,
+       "q": "Pada bulan Mei–September berembus angin monsun timur. Pernyataan manakah yang tepat mengenai ciri-ciri angin monsun timur?",
+       "options": [
+        "Matahari berada di belahan bumi utara.",
+        "Angin yang bertiup membawa banyak uap air sehingga bersifat basah.",
+        "Suhu udara di wilayah Asia cenderung lebih hangat, sedangkan di Australia lebih dingin."
+       ],
+       "answer": [
+        "a",
+        "c"
+       ],
+       "why": "Pada Mei–September matahari berada di belahan bumi utara, jadi Asia lebih hangat dan Australia lebih dingin. Angin bertiup dari Australia yang kering, sehingga angin monsun timur bersifat kering (membawa musim kemarau), bukan basah."
+      },
+      {
+       "type": "multi",
+       "no": 4,
+       "q": "Manakah peristiwa yang terjadi akibat rotasi bumi?",
+       "options": [
+        "Pergantian musim.",
+        "Pergantian siang dan malam.",
+        "Perbedaan waktu di berbagai wilayah di bumi."
+       ],
+       "answer": [
+        "b",
+        "c"
+       ],
+       "why": "Rotasi (bumi berputar pada porosnya) menyebabkan siang dan malam serta perbedaan waktu. Pergantian musim terjadi akibat revolusi (bumi mengelilingi matahari)."
+      },
+      {
+       "type": "truefalse",
+       "no": 5,
+       "q": "Indonesia mengalami dua musim, yaitu musim hujan dan kemarau. Tentukan Benar atau Salah untuk setiap pernyataan berikut terkait penyebab musim hujan di Indonesia!",
+       "headers": [
+        "Pernyataan",
+        "Benar",
+        "Salah"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Angin yang membawa udara kering dari Benua Australia bergerak menuju Indonesia.",
+         "answer": false
+        },
+        {
+         "label": "b",
+         "text": "Angin yang membawa uap air dari Samudra Pasifik dan Samudra Hindia bergerak menuju Indonesia.",
+         "answer": true
+        },
+        {
+         "label": "c",
+         "text": "Angin yang membawa uap air dari Benua Asia bergerak menuju Benua Australia.",
+         "answer": true
+        }
+       ],
+       "why": "a. Salah: udara kering dari Australia justru menyebabkan musim kemarau. b. Benar: angin melewati samudra yang luas sehingga membawa banyak uap air. c. Benar: itu angin monsun barat yang menyebabkan musim hujan."
+      },
+      {
+       "type": "single",
+       "no": 6,
+       "q": "Perhatikan gambar berikut!\nPosisi bumi pada saat belahan bumi utara mengalami musim semi ditunjukkan oleh huruf . . . .",
+       "options": [
+        "W",
+        "X",
+        "Y",
+        "Z"
+       ],
+       "answer": "c",
+       "why": "Musim semi di belahan bumi utara berlangsung dari sekitar 21 Maret sampai 21 Juni. Pada gambar, bumi bergerak dari Maret menuju Juni di posisi Y.",
+       "img": "ipas_exam_img/revolusi_bumi.jpg"
+      },
+      {
+       "type": "multi",
+       "no": 7,
+       "q": "Manakah pernyataan yang tepat tentang musim di bumi?",
+       "options": [
+        "Daerah yang terletak di ekuator bumi memiliki dua musim.",
+        "Bagian bumi yang menerima sinar matahari lebih banyak akan mengalami musim panas.",
+        "Saat musim dingin, belahan bumi yang mengalami musim tersebut mendapat cahaya matahari langsung dalam waktu lebih lama."
+       ],
+       "answer": [
+        "a",
+        "b"
+       ],
+       "why": "Daerah ekuator (seperti Indonesia) punya dua musim. Bagian bumi yang lebih banyak menerima sinar matahari mengalami musim panas. Saat musim dingin, belahan bumi itu justru mendapat cahaya matahari lebih sedikit/singkat."
+      },
+      {
+       "type": "multi",
+       "no": 8,
+       "q": "Manakah pernyataan berikut yang tepat mengenai gas rumah kaca?",
+       "options": [
+        "Gas yang menghambat masuknya panas matahari ke bumi.",
+        "Gas yang menyebabkan panas matahari terperangkap di permukaan bumi.",
+        "Gas yang dalam kadar normal dapat menjaga suhu bumi tetap hangat sehingga sesuai untuk kehidupan makhluk hidup."
+       ],
+       "answer": [
+        "b",
+        "c"
+       ],
+       "why": "Gas rumah kaca tidak menghalangi panas matahari masuk. Gas ini menahan (memerangkap) panas yang dipantulkan bumi. Dalam jumlah normal, gas ini menjaga bumi tetap hangat untuk kehidupan."
+      },
+      {
+       "type": "single",
+       "no": 9,
+       "q": "Tumbuhan berguna untuk membersihkan udara yang kotor, serta mengurangi pencemaran udara karena tumbuhan menghasilkan . . . .\n(OSN IPA SD, 2021)",
+       "options": [
+        "karbon dioksida",
+        "hidrogen",
+        "oksigen",
+        "nitrogen"
+       ],
+       "answer": "c",
+       "why": "Saat fotosintesis, tumbuhan menyerap karbon dioksida dan menghasilkan oksigen."
+      },
+      {
+       "type": "single",
+       "no": 10,
+       "q": "Perhatikan gambar rangkaian percobaan berikut untuk mengetahui terjadinya fenomena efek rumah kaca!\nKedua stoples diletakkan di tempat yang terkena sinar matahari selama 20 menit. Selanjutnya, dilakukan pengukuran suhu udara dalam kedua stoples tersebut. Pernyataan yang sesuai dengan hasil pengukuran tersebut adalah . . .",
+       "options": [
+        "Suhu pada rangkaian A sama dengan suhu pada rangkaian B.",
+        "Suhu pada rangkaian A lebih tinggi daripada suhu pada rangkaian B.",
+        "Suhu pada rangkaian B lebih tinggi daripada suhu pada rangkaian A.",
+        "Suhu pada rangkaian A dan rangkaian B lebih rendah daripada suhu awal."
+       ],
+       "answer": "c",
+       "why": "Stoples B ditutup plastik, sehingga panas terperangkap di dalamnya seperti efek rumah kaca. Jadi suhu di B lebih tinggi daripada A.",
+       "img": "ipas_exam_img/percobaan_stoples.jpg"
+      },
+      {
+       "type": "single",
+       "no": 11,
+       "q": "Pernyataan yang tepat terkait bagian X pada skema efek rumah kaca berikut adalah . . .",
+       "options": [
+        "Awan mengembalikan emisi gas karbon dioksida ke bumi.",
+        "Awan memantulkan kembali panas matahari ke bumi.",
+        "Gas rumah kaca memantulkan kembali panas matahari ke bumi.",
+        "Panas matahari memantulkan kembali emisi gas karbon dioksida ke bumi."
+       ],
+       "answer": "c",
+       "why": "Bagian X menunjukkan panas yang dipantulkan bumi lalu dikembalikan lagi ke bumi oleh lapisan gas rumah kaca di atmosfer, bukan oleh awan.",
+       "img": "ipas_exam_img/skema_rumah_kaca.jpg"
+      },
+      {
+       "type": "single",
+       "no": 12,
+       "q": "Bencana alam yang dapat meningkatkan emisi gas rumah kaca adalah . . . .",
+       "options": [
+        "erupsi gunung api dan kebakaran hutan",
+        "banjir dan erupsi gunung api",
+        "kebakaran hutan dan banjir",
+        "tsunami dan kebakaran hutan"
+       ],
+       "answer": "a",
+       "why": "Erupsi gunung api dan kebakaran hutan sama-sama mengeluarkan banyak gas (seperti karbon dioksida) ke udara. Banjir dan tsunami tidak menghasilkan gas rumah kaca."
+      },
+      {
+       "type": "single",
+       "no": 13,
+       "q": "Meskipun beriklim tropis, Indonesia memiliki wilayah yang masih tertutupi salju, yaitu di Pergunungan Jayawijaya, Papua. Ketebalan salju tersebut berkurang 2,5 m setiap tahun. Jika kondisi ini terus berlanjut, diperkirakan lapisan salju ini akan hilang pada 2026. Kegiatan yang dapat mempercepat peristiwa ini adalah . . . .",
+       "options": [
+        "penebangan hutan secara liar",
+        "perburuan satwa secara ilegal",
+        "penggunaan pestisida secara terus-menerus",
+        "penangkapan ikan menggunakan pukat harimau"
+       ],
+       "answer": "a",
+       "why": "Salju mencair karena suhu bumi naik (pemanasan global). Penebangan hutan mengurangi pohon yang menyerap karbon dioksida, sehingga gas rumah kaca bertambah dan bumi makin panas."
+      },
+      {
+       "type": "truefalse",
+       "no": 14,
+       "q": "Tentukan Benar atau Salah pada setiap pernyataan berikut terkait aktivitas manusia yang dapat menghasilkan gas rumah kaca akibat penggunaan batu bara sebagai sumber energi!",
+       "headers": [
+        "Pernyataan",
+        "Benar",
+        "Salah"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Kak Farel menyalakan pendingin ruangan (AC) di rumah.",
+         "answer": true
+        },
+        {
+         "label": "b",
+         "text": "Pak Edward berangkat bekerja dengan mengendarai mobil pribadi.",
+         "answer": false
+        },
+        {
+         "label": "c",
+         "text": "Bu Valencia memanggang daging menggunakan microwave.",
+         "answer": true
+        }
+       ],
+       "why": "Batu bara banyak dipakai di pembangkit listrik (PLTU). a. Benar: AC memakai listrik. b. Salah: mobil memakai bahan bakar minyak (bensin/solar), bukan batu bara. c. Benar: microwave memakai listrik."
+      },
+      {
+       "type": "passage",
+       "style": "plain",
+       "text": "Perhatikan infografik berikut untuk menjawab soal nomor 15!",
+       "img": "ipas_exam_img/infografik_musim_hujan.jpg"
+      },
+      {
+       "type": "single",
+       "no": 15,
+       "q": "Berdasarkan infografik tersebut, bentuk antisipasi bencana saat memasuki musim hujan yang dapat dilakukan masyarakat adalah . . . .",
+       "options": [
+        "membuang sampah pada tempatnya",
+        "menyiagakan tim reaksi cepat untuk evakuasi",
+        "melakukan kegiatan di sekitar sungai secara lebih intensif",
+        "menyiapkan tas siaga bencana berisi dokumen penting dan kebutuhan pokok"
+       ],
+       "answer": "d",
+       "why": "Imbauan nomor 1 untuk masyarakat adalah menyiapkan tas siaga bencana berisi dokumen penting dan kebutuhan pokok. Menyiagakan tim reaksi cepat adalah tugas BNPB, bukan masyarakat. Kegiatan di sekitar sungai justru harus dicegah."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hayati",
+   "title": "Keanekaragaman Hayati & Kondisi Geografis Indonesia",
+   "subtitle": "Asesmen Akhir Bab · soal nomor 1–15",
+   "parts": [
+    {
+     "title": "",
+     "instructions": [
+      "Kerjakan soal-soal berikut!"
+     ],
+     "blocks": [
+      {
+       "type": "single",
+       "no": 1,
+       "q": "Perhatikan gambar berikut!\nBerdasarkan persebarannya, hewan pada gambar memiliki habitat di wilayah . . . .",
+       "options": [
+        "Bali",
+        "Papua",
+        "Sumatra",
+        "Sulawesi"
+       ],
+       "answer": "c",
+       "why": "Hewan pada gambar adalah orangutan. Orangutan hidup di hutan Sumatra (dan Kalimantan).",
+       "img": "ipas_exam_img/orangutan.jpg"
+      },
+      {
+       "type": "multi",
+       "no": 2,
+       "q": "Manakah pernyataan berikut yang menunjukkan tujuan pembuatan cagar alam?",
+       "options": [
+        "Penjagaan keanekaragaman hayati.",
+        "Pemiaraan hewan ternak milik masyarakat.",
+        "Pelestarian flora langka yang tumbuh alami."
+       ],
+       "answer": [
+        "a",
+        "c"
+       ],
+       "why": "Cagar alam dibuat untuk menjaga keanekaragaman hayati dan melestarikan tumbuhan serta hewan langka di habitat aslinya. Cagar alam bukan tempat memelihara hewan ternak."
+      },
+      {
+       "type": "single",
+       "no": 3,
+       "q": "Perhatikan ciri-ciri flora berikut!\n1) Memiliki nama Latin, Pometia pinnata.\n2) Berasal dari Papua.\n3) Memiliki daun rimbun.\nFlora yang memiliki ciri-ciri tersebut adalah . . . .",
+       "options": [
+        "leci",
+        "matoa",
+        "lengkeng",
+        "edelweiss"
+       ],
+       "answer": "b",
+       "why": "Pometia pinnata adalah nama Latin pohon matoa, buah khas Papua."
+      },
+      {
+       "type": "truefalse",
+       "no": 4,
+       "q": "Transmigrasi dapat mengganggu keanekaragaman hayati. Tentukan Benar atau Salah pada setiap pernyataan berikut yang mencerminkan fenomena tersebut!",
+       "headers": [
+        "Pernyataan",
+        "Benar",
+        "Salah"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Mengelola lahan untuk ditanami tanaman pangan.",
+         "answer": true
+        },
+        {
+         "label": "b",
+         "text": "Mengubah kawasan hutan menjadi area permukiman.",
+         "answer": true
+        },
+        {
+         "label": "c",
+         "text": "Memindahkan masyarakat menuju daerah sepi penduduk.",
+         "answer": false
+        }
+       ],
+       "why": "Keanekaragaman hayati terganggu saat hutan dibuka untuk lahan pertanian (a) dan permukiman (b). Pernyataan c hanya arti dari transmigrasi itu sendiri, bukan kegiatan yang merusak keanekaragaman hayati."
+      },
+      {
+       "type": "single",
+       "no": 5,
+       "q": "Perhatikan fauna berikut!\nFauna pada gambar merupakan spesies endemik wilayah . . . .",
+       "options": [
+        "Bali",
+        "Maluku",
+        "Nusa Tenggara Barat",
+        "Nusa Tenggara Timur"
+       ],
+       "answer": "d",
+       "why": "Hewan pada gambar adalah komodo. Komodo hanya hidup di Pulau Komodo, Rinca, dan sekitarnya di Nusa Tenggara Timur.",
+       "img": "ipas_exam_img/komodo.jpg"
+      },
+      {
+       "type": "multi",
+       "no": 6,
+       "q": "Burung maleo termasuk satwa endemik yang hidup di wilayah Sulawesi. Keberadaan maleo menjadi bagian penting bagi keanekaragaman hayati Indonesia. Manakah pernyataan berikut yang menjelaskan karakteristik fauna tersebut?",
+       "options": [
+        "Persebaran spesies berada di Asia Tenggara.",
+        "Penyebaran spesies terbatas di wilayah tertentu.",
+        "Keberadaan spesies berdasarkan kondisi geografis tertentu."
+       ],
+       "answer": [
+        "b",
+        "c"
+       ],
+       "why": "Hewan endemik hanya ada di wilayah tertentu (maleo hanya di Sulawesi) karena cocok dengan kondisi geografis di sana. Maleo tidak tersebar di seluruh Asia Tenggara."
+      },
+      {
+       "type": "truefalse",
+       "no": 7,
+       "q": "Penebangan hutan dan eksploitasi alam masih terjadi di beberapa daerah. Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang dampak aktivitas tersebut terhadap keanekaragaman hayati di Indonesia!",
+       "headers": [
+        "Pernyataan",
+        "Benar",
+        "Salah"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Mengurangi spesies tumbuhan dan hewan di suatu wilayah.",
+         "answer": true
+        },
+        {
+         "label": "b",
+         "text": "Meningkatkan kegiatan konservasi alam oleh masyarakat.",
+         "answer": false
+        },
+        {
+         "label": "c",
+         "text": "Mengubah keseimbangan antarspesies dalam ekosistem.",
+         "answer": true
+        }
+       ],
+       "why": "Penebangan hutan merusak habitat, sehingga jumlah spesies berkurang (a) dan keseimbangan ekosistem terganggu (c). Penebangan hutan bukan kegiatan konservasi (b salah)."
+      },
+      {
+       "type": "single",
+       "no": 8,
+       "q": "Perhatikan ciri-ciri berikut!\n1) Kawasan yang dilindungi oleh pemerintah untuk menjaga kelestarian alam.\n2) Memiliki keanekaragaman hayati yang khas, seperti flora dan fauna langka.\n3) Pemanfaatannya dibatasi serta difokuskan untuk penelitian, pendidikan, dan pelestarian alam.\nKawasan konservasi yang memiliki ciri-ciri tersebut adalah . . . .",
+       "options": [
+        "cagar alam",
+        "taman nasional",
+        "hutan suaka alam",
+        "suaka margasatwa"
+       ],
+       "answer": "a",
+       "why": "Cagar alam melindungi tumbuhan dan hewan khas, dan pemanfaatannya dibatasi untuk penelitian, pendidikan, dan pelestarian. Taman nasional juga boleh dipakai untuk wisata, dan suaka margasatwa khusus melindungi hewan."
+      },
+      {
+       "type": "multi",
+       "no": 9,
+       "q": "Hutan hujan tropis memiliki vegetasi yang sangat rapat berupa pepohonan tinggi dan berdaun lebar. Berdasarkan informasi tersebut, manakah kondisi lingkungan yang mendukung kelestarian hutan hujan tropis?",
+       "options": [
+        "Curah hujan tinggi sepanjang tahun.",
+        "Ketersediaan sinar matahari untuk fotosintesis.",
+        "Suhu udara yang sangat rendah sepanjang tahun."
+       ],
+       "answer": [
+        "a",
+        "b"
+       ],
+       "why": "Hutan hujan tropis tumbuh subur karena hujan turun banyak sepanjang tahun dan sinar matahari cukup untuk fotosintesis. Suhunya hangat, bukan sangat rendah."
+      },
+      {
+       "type": "truefalse",
+       "no": 10,
+       "q": "Perhatikan gambar berikut!\nTentukan Tepat atau Tidak Tepat untuk setiap pernyataan berikut yang menjelaskan fungsi tumbuhan pada gambar bagi wilayah pesisir!",
+       "headers": [
+        "Pernyataan",
+        "Tepat",
+        "Tidak Tepat"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Struktur akar yang rapat membantu menahan sedimen.",
+         "answer": true
+        },
+        {
+         "label": "b",
+         "text": "Jaringan akar yang menyebar mampu meredam energi gelombang laut.",
+         "answer": true
+        },
+        {
+         "label": "c",
+         "text": "Tajuk daun yang lebat meningkatkan proses penguapan air laut di sekitar pantai.",
+         "answer": false
+        }
+       ],
+       "why": "Tumbuhan pada gambar adalah mangrove (bakau). Akarnya yang rapat menahan lumpur/sedimen (a) dan meredam ombak sehingga mencegah abrasi (b). Daun mangrove tidak berfungsi meningkatkan penguapan air laut (c tidak tepat).",
+       "img": "ipas_exam_img/mangrove.jpg"
+      },
+      {
+       "type": "single",
+       "no": 11,
+       "q": "Perbedaan pertanian lahan basah dan pertanian lahan kering terdapat pada pilihan . . . .",
+       "options": [
+        "Lahan basah: memanfaatkan air hujan\nLahan kering: memanfaatkan irigasi",
+        "Lahan basah: terletak di daerah yang tidak memiliki sumber air\nLahan kering: terletak di dekat sumber air",
+        "Lahan basah: menghasilkan bahan pangan lebih banyak\nLahan kering: kurang optimal menghasilkan bahan pangan",
+        "Lahan basah: dikembangkan di daerah dekat sumber air\nLahan kering: dikembangkan di daerah kering yang mengandalkan air hujan"
+       ],
+       "answer": "d",
+       "why": "Pertanian lahan basah (sawah) berada dekat sumber air dan memakai irigasi. Pertanian lahan kering (ladang/tegalan) berada di daerah kering dan mengandalkan air hujan. Pilihan A dan B terbalik."
+      },
+      {
+       "type": "multi",
+       "no": 12,
+       "q": "Banyak kota besar berada di daerah yang permukaannya datar. Kondisi ini mendukung aktivitas sehari-hari masyarakat. Manakah faktor berikut yang mendukung fenomena tersebut?",
+       "options": [
+        "Bentuk permukaan wilayah yang relatif rata.",
+        "Keberadaan lereng terjal di sebagian besar wilayah.",
+        "Ketersediaan jaringan jalan dan transportasi umum."
+       ],
+       "answer": [
+        "a",
+        "c"
+       ],
+       "why": "Permukaan yang rata memudahkan pembangunan, jalan, dan transportasi umum. Lereng terjal justru menyulitkan pembangunan kota."
+      },
+      {
+       "type": "single",
+       "no": 13,
+       "q": "Daya tarik utama kawasan dataran tinggi bagi wisatawan adalah . . . .",
+       "options": [
+        "suhu udara yang panas",
+        "curah hujan yang tinggi",
+        "panorama alam yang indah",
+        "sumber air yang melimpah"
+       ],
+       "answer": "c",
+       "why": "Wisatawan datang ke dataran tinggi untuk menikmati pemandangan (panorama) alam yang indah dan udara yang sejuk. Suhu di dataran tinggi sejuk, bukan panas."
+      },
+      {
+       "type": "truefalse",
+       "no": 14,
+       "q": "Penduduk di Desa Sejahtera menggunakan aliran sungai sebagai sumber air. Ketersediaan air sungai dapat menjaga pertumbuhan tanaman. Tentukan Tepat atau Tidak Tepat untuk setiap pernyataan berikut yang menunjukkan pemanfaatan air tersebut!",
+       "headers": [
+        "Pernyataan",
+        "Tepat",
+        "Tidak Tepat"
+       ],
+       "statements": [
+        {
+         "label": "a",
+         "text": "Menjaga kelembapan tanah di area tanaman.",
+         "answer": true
+        },
+        {
+         "label": "b",
+         "text": "Menyediakan perahu bagi masyarakat antardesa.",
+         "answer": false
+        },
+        {
+         "label": "c",
+         "text": "Menyalurkan aliran air ke sawah melalui saluran pengairan.",
+         "answer": true
+        }
+       ],
+       "why": "Air sungai yang menjaga pertumbuhan tanaman dipakai untuk membasahi tanah (a) dan mengairi sawah lewat irigasi (c). Perahu antardesa adalah sarana transportasi, tidak ada hubungannya dengan pertumbuhan tanaman (b)."
+      },
+      {
+       "type": "single",
+       "no": 15,
+       "q": "Masyarakat pesisir biasanya bekerja sebagai nelayan. Mereka memanfaatkan perahu untuk mencari ikan. Hamparan laut yang luas memengaruhi kegiatan ekonomi masyarakat setempat. Kesimpulan yang diperoleh berdasarkan informasi tersebut adalah . . . .",
+       "options": [
+        "masyarakat menjual hasil tangkapan di pasar ikan",
+        "masyarakat menggunakan perahu untuk menuju pusat kota",
+        "masyarakat bertahan hidup menyesuaikan kondisi lingkungan",
+        "masyarakat pesisir membangun rumah dengan bentuk serupa"
+       ],
+       "answer": "c",
+       "why": "Karena tinggal dekat laut yang luas, masyarakat pesisir bekerja sebagai nelayan. Artinya, mereka bertahan hidup dengan menyesuaikan diri pada kondisi lingkungannya."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
