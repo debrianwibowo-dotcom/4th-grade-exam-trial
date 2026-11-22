@@ -21,3 +21,7 @@
 !ipas_exam.json
 !ipas_exam_img/
 !ipas_exam_img/*.jpg
+!arab_exam.html
+!arab_exam.json
+!arab_exam_img/
+!arab_exam_img/*.jpg
