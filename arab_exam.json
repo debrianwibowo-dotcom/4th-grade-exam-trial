@@ -34,7 +34,7 @@
   {
    "id": "latihan1",
    "title": "Unit 1 · Latihan 1 — Hubungkan",
-   "subtitle": "hlm. 2 · soal nomor 1–12",
+   "subtitle": "hlm. 2 · soal nomor 1–10",
    "parts": [
     {
      "title": "",
@@ -60,19 +60,6 @@
        "type": "single",
        "no": 2,
        "q": "Pilih kata yang sesuai dengan gambar!",
-       "img": "arab_exam_img/l1_thairah.jpg",
-       "imgAlt": "Gambar untuk soal 2",
-       "options": [
-        "طائِرَة",
-        "قِطار"
-       ],
-       "answer": "a",
-       "why": "Gambar ini menunjukkan pesawat terbang. طائِرَة artinya \"pesawat terbang\"."
-      },
-      {
-       "type": "single",
-       "no": 3,
-       "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_yarkabu.jpg",
        "imgAlt": "Gambar untuk soal 3",
        "options": [
@@ -84,7 +71,7 @@
       },
       {
        "type": "single",
-       "no": 4,
+       "no": 3,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_yusafiru.jpg",
        "imgAlt": "Gambar untuk soal 4",
@@ -97,7 +84,7 @@
       },
       {
        "type": "single",
-       "no": 5,
+       "no": 4,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_hafilah.jpg",
        "imgAlt": "Gambar untuk soal 5",
@@ -110,7 +97,7 @@
       },
       {
        "type": "single",
-       "no": 6,
+       "no": 5,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_safinah.jpg",
        "imgAlt": "Gambar untuk soal 6",
@@ -123,7 +110,7 @@
       },
       {
        "type": "single",
-       "no": 7,
+       "no": 6,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_bada.jpg",
        "imgAlt": "Gambar untuk soal 7",
@@ -136,20 +123,7 @@
       },
       {
        "type": "single",
-       "no": 8,
-       "q": "Pilih kata yang sesuai dengan gambar!",
-       "img": "arab_exam_img/l1_madinah.jpg",
-       "imgAlt": "Gambar untuk soal 8",
-       "options": [
-        "مَدينَة",
-        "بَعْدَ"
-       ],
-       "answer": "a",
-       "why": "Gambar ini menunjukkan gedung-gedung sebuah kota. مَدينَة artinya \"kota\"."
-      },
-      {
-       "type": "single",
-       "no": 9,
+       "no": 7,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_yashilu.jpg",
        "imgAlt": "Gambar untuk soal 9",
@@ -162,7 +136,7 @@
       },
       {
        "type": "single",
-       "no": 10,
+       "no": 8,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_kaifa.jpg",
        "imgAlt": "Gambar untuk soal 10",
@@ -175,7 +149,7 @@
       },
       {
        "type": "single",
-       "no": 11,
+       "no": 9,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_tsumma.jpg",
        "imgAlt": "Gambar untuk soal 11",
@@ -188,7 +162,7 @@
       },
       {
        "type": "single",
-       "no": 12,
+       "no": 10,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l1_darrajah.jpg",
        "imgAlt": "Gambar untuk soal 12",
@@ -206,7 +180,7 @@
   {
    "id": "latihan2",
    "title": "Unit 1 · Latihan 2 — Hubungkan",
-   "subtitle": "hlm. 2 · soal nomor 1–9",
+   "subtitle": "hlm. 2 · soal nomor 1–7",
    "parts": [
     {
      "title": "",
@@ -234,21 +208,6 @@
        "type": "single",
        "no": 2,
        "q": "Pilih kata yang sesuai dengan gambar!",
-       "img": "arab_exam_img/l2_qithar.jpg",
-       "imgAlt": "Gambar untuk soal 2",
-       "options": [
-        "حافِلَة",
-        "قِطار",
-        "طائِرَة",
-        "دَرّاجَة"
-       ],
-       "answer": "b",
-       "why": "Gambar ini menunjukkan kereta api. قِطار artinya \"kereta api\"."
-      },
-      {
-       "type": "single",
-       "no": 3,
-       "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l2_hafilah.jpg",
        "imgAlt": "Gambar untuk soal 3",
        "options": [
@@ -262,7 +221,7 @@
       },
       {
        "type": "single",
-       "no": 4,
+       "no": 3,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l2_sanah.jpg",
        "imgAlt": "Gambar untuk soal 4",
@@ -277,22 +236,7 @@
       },
       {
        "type": "single",
-       "no": 5,
-       "q": "Pilih kata yang sesuai dengan gambar!",
-       "img": "arab_exam_img/l2_darrajah.jpg",
-       "imgAlt": "Gambar untuk soal 5",
-       "options": [
-        "دَرّاجَة",
-        "حافِلَة",
-        "قِطار",
-        "يَرْكَبُ"
-       ],
-       "answer": "a",
-       "why": "Gambar ini menunjukkan sepeda. دَرّاجَة artinya \"sepeda\"."
-      },
-      {
-       "type": "single",
-       "no": 6,
+       "no": 4,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l2_thairah.jpg",
        "imgAlt": "Gambar untuk soal 6",
@@ -307,7 +251,7 @@
       },
       {
        "type": "single",
-       "no": 7,
+       "no": 5,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l2_madinah.jpg",
        "imgAlt": "Gambar untuk soal 7",
@@ -322,7 +266,7 @@
       },
       {
        "type": "single",
-       "no": 8,
+       "no": 6,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l2_yarkabu.jpg",
        "imgAlt": "Gambar untuk soal 8",
@@ -337,7 +281,7 @@
       },
       {
        "type": "single",
-       "no": 9,
+       "no": 7,
        "q": "Pilih kata yang sesuai dengan gambar!",
        "img": "arab_exam_img/l2_yashilu.jpg",
        "imgAlt": "Gambar untuk soal 9",
@@ -357,7 +301,7 @@
   {
    "id": "latihan3",
    "title": "Unit 1 · Latihan 3 — Dengarkan & centang",
-   "subtitle": "hlm. 3 · soal nomor 1–5",
+   "subtitle": "hlm. 3 · soal nomor 1–3",
    "parts": [
     {
      "title": "",
@@ -402,38 +346,6 @@
        "type": "single",
        "no": 3,
        "q": "Dengarkan, lalu pilih gambar yang sesuai!",
-       "say": "حافِلَة",
-       "options": [
-        "bus",
-        "kota"
-       ],
-       "optionImgs": [
-        "arab_exam_img/p3_hafilah.jpg",
-        "arab_exam_img/p3_madinah.jpg"
-       ],
-       "answer": "a",
-       "why": "Kata yang dibacakan: حافِلَة artinya \"bus\"."
-      },
-      {
-       "type": "single",
-       "no": 4,
-       "q": "Dengarkan, lalu pilih gambar yang sesuai!",
-       "say": "يَرْكَبُ",
-       "options": [
-        "anak naik mobil",
-        "huruf ب ع د"
-       ],
-       "optionImgs": [
-        "arab_exam_img/p3_yarkabu.jpg",
-        "arab_exam_img/p3_bada.jpg"
-       ],
-       "answer": "a",
-       "why": "Kata yang dibacakan: يَرْكَبُ artinya \"naik (kendaraan)\"."
-      },
-      {
-       "type": "single",
-       "no": 5,
-       "q": "Dengarkan, lalu pilih gambar yang sesuai!",
        "say": "سَفِينَة",
        "options": [
         "pesawat terbang",
@@ -453,13 +365,13 @@
   {
    "id": "latihan4",
    "title": "Unit 1 · Latihan 4 — Dengarkan & beri nomor",
-   "subtitle": "hlm. 3 · soal nomor 1–5",
+   "subtitle": "hlm. 3 · soal nomor 1–3",
    "parts": [
     {
      "title": "",
      "instructions": [
       "اِسْتَمِعْ، وَضَعِ الرَّقْمَ الصَّحِيحَ — Dengarkan, lalu beri nomor yang benar.",
-      "Di buku, kamu menulis nomor 1–5 di bawah gambar. Di sini, dengarkan kata untuk setiap nomor, lalu pilih gambarnya."
+      "Di buku, kamu menulis nomor di bawah gambar. Di sini, dengarkan kata untuk setiap nomor, lalu pilih gambarnya."
      ],
      "blocks": [
       {
@@ -510,28 +422,6 @@
        "type": "single",
        "no": 3,
        "q": "Dengarkan kata nomor 3, lalu pilih gambarnya!",
-       "say": "بَعْدَ",
-       "options": [
-        "bus",
-        "anak naik mobil",
-        "turun dari pesawat",
-        "huruf ب ع د",
-        "kapal laut"
-       ],
-       "optionImgs": [
-        "arab_exam_img/p3_hafilah.jpg",
-        "arab_exam_img/p3_yarkabu.jpg",
-        "arab_exam_img/p3_yashilu.jpg",
-        "arab_exam_img/p3_bada.jpg",
-        "arab_exam_img/p3_safinah.jpg"
-       ],
-       "answer": "d",
-       "why": "Kata yang dibacakan: بَعْدَ artinya \"sesudah / setelah\"."
-      },
-      {
-       "type": "single",
-       "no": 4,
-       "q": "Dengarkan kata nomor 4, lalu pilih gambarnya!",
        "say": "حافِلَة",
        "options": [
         "bus",
@@ -549,28 +439,6 @@
        ],
        "answer": "a",
        "why": "Kata yang dibacakan: حافِلَة artinya \"bus\"."
-      },
-      {
-       "type": "single",
-       "no": 5,
-       "q": "Dengarkan kata nomor 5, lalu pilih gambarnya!",
-       "say": "سَفِينَة",
-       "options": [
-        "bus",
-        "anak naik mobil",
-        "turun dari pesawat",
-        "huruf ب ع د",
-        "kapal laut"
-       ],
-       "optionImgs": [
-        "arab_exam_img/p3_hafilah.jpg",
-        "arab_exam_img/p3_yarkabu.jpg",
-        "arab_exam_img/p3_yashilu.jpg",
-        "arab_exam_img/p3_bada.jpg",
-        "arab_exam_img/p3_safinah.jpg"
-       ],
-       "answer": "e",
-       "why": "Kata yang dibacakan: سَفِينَة artinya \"kapal laut\"."
       }
      ]
     }
@@ -579,7 +447,7 @@
   {
    "id": "latihan5",
    "title": "Unit 1 · Latihan 5 — Dengarkan & centang",
-   "subtitle": "hlm. 3 · soal nomor 1–12",
+   "subtitle": "hlm. 3 · soal nomor 1–10",
    "parts": [
     {
      "title": "",
@@ -663,30 +531,6 @@
        "type": "single",
        "no": 7,
        "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
-       "say": "حافِلَة",
-       "options": [
-        "حافِلَة",
-        "قِطار"
-       ],
-       "answer": "a",
-       "why": "Kata yang dibacakan: حافِلَة artinya \"bus\"."
-      },
-      {
-       "type": "single",
-       "no": 8,
-       "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
-       "say": "بَعْدَ",
-       "options": [
-        "يَصِلُ",
-        "بَعْدَ"
-       ],
-       "answer": "b",
-       "why": "Kata yang dibacakan: بَعْدَ artinya \"sesudah / setelah\"."
-      },
-      {
-       "type": "single",
-       "no": 9,
-       "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
        "say": "يَرْكَبُ",
        "options": [
         "يَرْكَبُ",
@@ -697,7 +541,7 @@
       },
       {
        "type": "single",
-       "no": 10,
+       "no": 8,
        "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
        "say": "كَيْفَ",
        "options": [
@@ -709,7 +553,7 @@
       },
       {
        "type": "single",
-       "no": 11,
+       "no": 9,
        "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
        "say": "سَنَة",
        "options": [
@@ -721,7 +565,7 @@
       },
       {
        "type": "single",
-       "no": 12,
+       "no": 10,
        "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
        "say": "دَرّاجَة",
        "options": [
@@ -757,7 +601,7 @@
   {
    "id": "u2latihan3",
    "title": "Unit 2 · Latihan 3 — Dengarkan & centang",
-   "subtitle": "hlm. 15 · soal nomor 1–5",
+   "subtitle": "hlm. 15 · soal nomor 1–3",
    "parts": [
     {
      "title": "",
@@ -786,38 +630,6 @@
        "type": "single",
        "no": 2,
        "q": "Dengarkan, lalu pilih gambar yang sesuai!",
-       "say": "يَرَى",
-       "options": [
-        "turun tangga",
-        "anak melihat"
-       ],
-       "optionImgs": [
-        "arab_exam_img/u2_yanzilu.jpg",
-        "arab_exam_img/u2_yara.jpg"
-       ],
-       "answer": "b",
-       "why": "Kata yang dibacakan: يَرَى artinya \"melihat\"."
-      },
-      {
-       "type": "single",
-       "no": 3,
-       "q": "Dengarkan, lalu pilih gambar yang sesuai!",
-       "say": "يَجْلِسُ",
-       "options": [
-        "anak duduk di kursi",
-        "pintu terbuka"
-       ],
-       "optionImgs": [
-        "arab_exam_img/u2_yajlisu.jpg",
-        "arab_exam_img/u2_yaftahu.jpg"
-       ],
-       "answer": "a",
-       "why": "Kata yang dibacakan: يَجْلِسُ artinya \"duduk\"."
-      },
-      {
-       "type": "single",
-       "no": 4,
-       "q": "Dengarkan, lalu pilih gambar yang sesuai!",
        "say": "يُشاهِدُ",
        "options": [
         "anak melihat",
@@ -832,7 +644,7 @@
       },
       {
        "type": "single",
-       "no": 5,
+       "no": 3,
        "q": "Dengarkan, lalu pilih gambar yang sesuai!",
        "say": "جَمِيل",
        "options": [
@@ -853,13 +665,13 @@
   {
    "id": "u2latihan4",
    "title": "Unit 2 · Latihan 4 — Dengarkan & beri nomor",
-   "subtitle": "hlm. 15 · soal nomor 1–6",
+   "subtitle": "hlm. 15 · soal nomor 1–4",
    "parts": [
     {
      "title": "",
      "instructions": [
       "اِسْتَمِعْ، وَضَعِ الرَّقْمَ الصَّحِيحَ — Dengarkan, lalu beri nomor yang benar.",
-      "Di buku, kamu menulis nomor 1–6 di bawah gambar. Di sini, dengarkan kata untuk setiap nomor, lalu pilih gambarnya."
+      "Di buku, kamu menulis nomor di bawah gambar. Di sini, dengarkan kata untuk setiap nomor, lalu pilih gambarnya."
      ],
      "blocks": [
       {
@@ -957,54 +769,6 @@
        ],
        "answer": "a",
        "why": "Kata yang dibacakan: مَطَر artinya \"hujan\"."
-      },
-      {
-       "type": "single",
-       "no": 5,
-       "q": "Dengarkan kata nomor 5, lalu pilih gambarnya!",
-       "say": "يُغْلِقُ",
-       "options": [
-        "awan dan hujan",
-        "anak duduk di kursi",
-        "anak melihat",
-        "pintu tertutup",
-        "anak menonton TV",
-        "bunga yang indah"
-       ],
-       "optionImgs": [
-        "arab_exam_img/u2_mathar.jpg",
-        "arab_exam_img/u2_yajlisu.jpg",
-        "arab_exam_img/u2_yara.jpg",
-        "arab_exam_img/u2_yughliqu.jpg",
-        "arab_exam_img/u2_yusyahidu.jpg",
-        "arab_exam_img/u2_jamil.jpg"
-       ],
-       "answer": "d",
-       "why": "Kata yang dibacakan: يُغْلِقُ artinya \"menutup\"."
-      },
-      {
-       "type": "single",
-       "no": 6,
-       "q": "Dengarkan kata nomor 6, lalu pilih gambarnya!",
-       "say": "يُشاهِدُ",
-       "options": [
-        "awan dan hujan",
-        "anak duduk di kursi",
-        "anak melihat",
-        "pintu tertutup",
-        "anak menonton TV",
-        "bunga yang indah"
-       ],
-       "optionImgs": [
-        "arab_exam_img/u2_mathar.jpg",
-        "arab_exam_img/u2_yajlisu.jpg",
-        "arab_exam_img/u2_yara.jpg",
-        "arab_exam_img/u2_yughliqu.jpg",
-        "arab_exam_img/u2_yusyahidu.jpg",
-        "arab_exam_img/u2_jamil.jpg"
-       ],
-       "answer": "e",
-       "why": "Kata yang dibacakan: يُشاهِدُ artinya \"menonton\"."
       }
      ]
     }
@@ -1013,7 +777,7 @@
   {
    "id": "u2latihan5",
    "title": "Unit 2 · Latihan 5 — Dengarkan & centang",
-   "subtitle": "hlm. 15 · soal nomor 1–12",
+   "subtitle": "hlm. 15 · soal nomor 1–10",
    "parts": [
     {
      "title": "",
@@ -1121,18 +885,6 @@
        "type": "single",
        "no": 9,
        "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
-       "say": "يُغْلِقُ",
-       "options": [
-        "شَيْء",
-        "يُغْلِقُ"
-       ],
-       "answer": "b",
-       "why": "Kata yang dibacakan: يُغْلِقُ artinya \"menutup\"."
-      },
-      {
-       "type": "single",
-       "no": 10,
-       "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
        "say": "جَمِيل",
        "options": [
         "جَمِيل",
@@ -1143,19 +895,7 @@
       },
       {
        "type": "single",
-       "no": 11,
-       "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
-       "say": "يَرَى",
-       "options": [
-        "إلى",
-        "يَرَى"
-       ],
-       "answer": "b",
-       "why": "Kata yang dibacakan: يَرَى artinya \"melihat\"."
-      },
-      {
-       "type": "single",
-       "no": 12,
+       "no": 10,
        "q": "Dengarkan, lalu pilih kata yang kamu dengar!",
        "say": "مَطَر",
        "options": [
